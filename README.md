@@ -1,6 +1,6 @@
 # DesignPattern
 Design  Pattern
-建造者模式</br>
+建造者模式——builderPattern</br>
 命令模式</br>
 装饰模式</br>
 工厂模式</br>
