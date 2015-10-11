@@ -11,3 +11,5 @@ Design  Pattern</br>
 单例模式</br>
 策略模式</br>
 模板模式</br>
+适配器模式</br>
+迭代器模式</br>
