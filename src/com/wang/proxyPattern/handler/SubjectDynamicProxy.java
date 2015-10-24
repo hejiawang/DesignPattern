@@ -1,9 +1,9 @@
-package com.wang.proxyPattern.handler;
+ï»¿package com.wang.proxyPattern.handler;
 
 import java.lang.reflect.InvocationHandler;
 
 /**
- * ¾ßÌåÒµÎñµÄ¶¯Ì¬´úÀí
+ * å…·ä½“ä¸šåŠ¡çš„åŠ¨æ€ä»£ç†
  * @author HeJW
  *
  */
@@ -12,13 +12,13 @@ public class SubjectDynamicProxy extends DynamicProxy {
 	
 	public static <T> T newProxyInstance( Subject subject ){
 		
-		//»ñµÃClassLoader
+		//è·å¾—ClassLoader
 		ClassLoader loader = subject.getClass().getClassLoader();
 		
-		//»ñµÃ½Ó¿ÚÊı×é
+		//è·å¾—æ¥å£æ•°ç»„
 		Class<?>[] classes = subject.getClass().getInterfaces();
 		
-		//»ñµÃhandler 
+		//è·å¾—handler 
 		InvocationHandler handler = new MyInvocationHandler(subject);
 		
 		return newProxyInstance(loader, classes, handler);

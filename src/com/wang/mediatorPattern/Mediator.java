@@ -1,14 +1,14 @@
-package com.wang.mediatorPattern;
+ï»¿package com.wang.mediatorPattern;
 
 /**
- * Í¨ÓÃ³éÏóÖĞ½éÕß
+ * é€šç”¨æŠ½è±¡ä¸­ä»‹è€…
  * 
  * @author HeJW
  * 
  */
 public abstract class Mediator {
 
-	// ¶¨ÒåÍ¬ÊÂÀà
+	// å®šä¹‰åŒäº‹ç±»
 	protected ConcreteColleague1 c1;
 	protected ConcreteColleague2 c2;
 
@@ -29,7 +29,7 @@ public abstract class Mediator {
 	}
 
 	/**
-	 * ÖĞ½éÕßÄ£Ê½µÄÒµÎñÂß¼­£¬Ò»°ãÒª¶à¸öÍ¬ÊÂÀàĞ­×÷¹²Í¬Íê³É
+	 * ä¸­ä»‹è€…æ¨¡å¼çš„ä¸šåŠ¡é€»è¾‘ï¼Œä¸€èˆ¬è¦å¤šä¸ªåŒäº‹ç±»åä½œå…±åŒå®Œæˆ
 	 */
 	public abstract void doSomthing1();
 

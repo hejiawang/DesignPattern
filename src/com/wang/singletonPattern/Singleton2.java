@@ -1,7 +1,7 @@
-package com.wang.singletonPattern;
+ï»¿package com.wang.singletonPattern;
 
 /**
- * ÀÁººÊ½µ¥Àı
+ * æ‡’æ±‰å¼å•ä¾‹
  * @author HeJW
  *
  */
@@ -10,10 +10,10 @@ public class Singleton2 {
 	private static Singleton2 singleton2 = null;
 	
 	private Singleton2(){
-		System.out.println("´´½¨Singleton2ÊµÀı");
+		System.out.println("åˆ›å»ºSingleton2å®ä¾‹");
 	}
 	
-	//Èç¹û²»¼Ósynchronized¹Ø¼ü×Ö£¬Ïß³Ì²»°²È«
+	//å¦‚æœä¸åŠ synchronizedå…³é”®å­—ï¼Œçº¿ç¨‹ä¸å®‰å…¨
 	public static synchronized Singleton2 getSingleton2(){
 		
 		if( singleton2 == null ){

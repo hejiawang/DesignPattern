@@ -1,9 +1,9 @@
-package com.wang.proxyPattern.develop.common;
+ï»¿package com.wang.proxyPattern.develop.common;
 
 import com.wang.proxyPattern.example.IGamePlayer;
 
 /**
- * ÆÕÍ¨´úÀíµÄ´úÀíÕß
+ * æ™®é€šä»£ç†çš„ä»£ç†è€…
  * @author HeJW
  *
  */

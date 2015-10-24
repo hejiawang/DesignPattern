@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern;
+ï»¿package com.wang.mediatorPattern;
 
 /**
- * ¾ßÌåÖĞ½éÕß
+ * å…·ä½“ä¸­ä»‹è€…
  * @author HeJW
  *
  */

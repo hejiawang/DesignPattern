@@ -1,7 +1,7 @@
-package com.wang.strategyPattern.example;
+锘縫ackage com.wang.strategyPattern.example;
 
 /**
- * 减法策略模式
+ * 鍑忔硶绛栫暐妯″紡
  * 
  * @author HeJW
  * 

@@ -1,4 +1,4 @@
-package com.wang.strategyPattern.example;
+﻿package com.wang.strategyPattern.example;
 
 public class Context {
 	

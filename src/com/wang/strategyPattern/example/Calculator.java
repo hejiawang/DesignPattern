@@ -1,7 +1,7 @@
-package com.wang.strategyPattern.example;
+ï»¿package com.wang.strategyPattern.example;
 
 /**
- * ¼ÆËãÆ÷²ßÂÔÄ£Ê½
+ * è®¡ç®—å™¨ç­–ç•¥æ¨¡å¼
  * 
  * @author HeJW
  * 

@@ -1,15 +1,15 @@
-package com.wang.proxyPattern;
+ï»¿package com.wang.proxyPattern;
 
 public class Proxy implements Subject {
 
 	public Subject subject = null;
 	
-	//Ä¬ÈÏ±»´úÀíÕß
+	//é»˜è®¤è¢«ä»£ç†è€…
 	public Proxy(){
 		this.subject = new Proxy();
 	}
 	
-	//Í¨¹ı¹¹Ôìº¯Êı´«µİ´úÀíÕß
+	//é€šè¿‡æ„é€ å‡½æ•°ä¼ é€’ä»£ç†è€…
 	public Proxy( Object...objects ){
 		
 	}
@@ -24,11 +24,11 @@ public class Proxy implements Subject {
 	}
 	
 	private void before(){
-		//ÔÚ´¦ÀíÒµÎñÂß¼­Ö®Ç°×öÒ»Ğ©ÊÂÇé
+		//åœ¨å¤„ç†ä¸šåŠ¡é€»è¾‘ä¹‹å‰åšä¸€äº›äº‹æƒ…
 	}
 	
 	private void after(){
-		//ÔÚ´¦ÀíÒµÎñÂß¼­Ö®ºó×öÒ»Ğ©ÊÂÇé
+		//åœ¨å¤„ç†ä¸šåŠ¡é€»è¾‘ä¹‹ååšä¸€äº›äº‹æƒ…
 	}
 
 }

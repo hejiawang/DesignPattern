@@ -1,16 +1,16 @@
-package com.wang.ResponsibilityChainPattern.example;
+锘縫ackage com.wang.ResponsibilityChainPattern.example;
 
 public interface IWomen {
 
 	/**
-	 * 或的个人状况
+	 * 鎴栫殑涓汉鐘跺喌
 	 * 
 	 * @return
 	 */
 	public int getType();
 
 	/**
-	 * 获得个人请示
+	 * 鑾峰緱涓汉璇风ず
 	 * 
 	 * @return
 	 */

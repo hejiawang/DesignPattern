@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+锘縫ackage com.wang.ResponsibilityChainPattern;
 
 /**
- * 处理者返回的数据
+ * 澶勭悊鑰呰繑鍥炵殑鏁版嵁
  * 
  * @author HeJW
  * 

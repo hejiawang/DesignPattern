@@ -1,4 +1,4 @@
-package com.wang.ResponsibilityChainPattern.example;
+ï»¿package com.wang.ResponsibilityChainPattern.example;
 
 public class Father extends Handler {
 
@@ -9,9 +9,9 @@ public class Father extends Handler {
 	@Override
 	protected void response(IWomen women) {
 
-		System.out.println("Å®¶ùÏò¸¸Ç×ÇëÊ¾");
+		System.out.println("å¥³å„¿å‘çˆ¶äº²è¯·ç¤º");
 		System.out.println(women.getRequest());
-		System.out.println("¸¸Ç×Í¬ÒâÁË");
+		System.out.println("çˆ¶äº²åŒæ„äº†");
 	}
 
 }

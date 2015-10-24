@@ -1,9 +1,9 @@
-package com.wang.mediatorPattern.before;
+ï»¿package com.wang.mediatorPattern.before;
 
 import java.util.Random;
 
 /**
- * ÏúÊÛ¹ÜÀí
+ * é”€å”®ç®¡ç†
  * 
  * @author HeJW
  * 
@@ -11,7 +11,7 @@ import java.util.Random;
 public class Sale {
 
 	/**
-	 * ÏúÊÛµçÄÔ
+	 * é”€å”®ç”µè„‘
 	 * 
 	 * @param number
 	 */
@@ -19,15 +19,15 @@ public class Sale {
 
 		Stock stock = new Stock();
 		Purchase purchase = new Purchase();
-		if (stock.getStockNumber() < number) { // ¿â´æÊıÁ¿²»¹»ÏúÊÛ
+		if (stock.getStockNumber() < number) { // åº“å­˜æ•°é‡ä¸å¤Ÿé”€å”®
 			purchase.buyIBMComputer(number);
 		}
-		System.out.println("ÏúÊÛµçÄÔ£º" + number + "Ì¨");
+		System.out.println("é”€å”®ç”µè„‘ï¼š" + number + "å°");
 		stock.decrease(number);
 	}
 
 	/**
-	 * ·´À¡ÏúÊÛÇé¿ö
+	 * åé¦ˆé”€å”®æƒ…å†µ
 	 * 
 	 * @return
 	 */
@@ -35,16 +35,16 @@ public class Sale {
 
 		Random rand = new Random();
 		int saleStatus = rand.nextInt(100);
-		System.out.println("µçÄÔÏúÊÛÇé¿öÎª£º" + saleStatus);
+		System.out.println("ç”µè„‘é”€å”®æƒ…å†µä¸ºï¼š" + saleStatus);
 		return saleStatus;
 	}
 
 	/**
-	 * ÕÛ¼Û´¦Àí
+	 * æŠ˜ä»·å¤„ç†
 	 */
 	public void offSale() {
 
 		Stock stock = new Stock();
-		System.out.println("ÕÛ°ëÏúÊÛµçÄÔ" + stock.getStockNumber() + "Ì¨");
+		System.out.println("æŠ˜åŠé”€å”®ç”µè„‘" + stock.getStockNumber() + "å°");
 	}
 }

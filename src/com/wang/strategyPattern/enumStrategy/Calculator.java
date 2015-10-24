@@ -1,7 +1,7 @@
-package com.wang.strategyPattern.enumStrategy;
+ï»¿package com.wang.strategyPattern.enumStrategy;
 
 /**
- * ²ßÂÔÃ¶¾Ù
+ * ç­–ç•¥æšä¸¾
  * 
  * @author HeJW
  * 

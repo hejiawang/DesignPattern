@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern;
+ï»¿package com.wang.mediatorPattern;
 
 /**
- * ¾ßÌåÍ¬ÊÂÀà1
+ * å…·ä½“åŒäº‹ç±»1
  * @author HeJW
  *
  */
@@ -12,17 +12,17 @@ public class ConcreteColleague1 extends Colleague {
 	}
 	
 	/*
-	 * ×Ô¼ºÄÜ¹»×öµ½µÄÊÂÇé
+	 * è‡ªå·±èƒ½å¤Ÿåšåˆ°çš„äº‹æƒ…
 	 */
 	public void selfMethod1(){
-		System.out.println("´¦Àí×Ô¼ºµÄÒµÎñÂß¼­");
+		System.out.println("å¤„ç†è‡ªå·±çš„ä¸šåŠ¡é€»è¾‘");
 	}
 	
 	/**
-	 * ×Ô¼º°ì²»µ½µÄÊÂ£¬ĞèÒªºÍÆäËûÍ¬ÊÂÀàĞ­×÷Íê³É£¬Î¯ÍĞ¸øÖĞ½éÕß
+	 * è‡ªå·±åŠä¸åˆ°çš„äº‹ï¼Œéœ€è¦å’Œå…¶ä»–åŒäº‹ç±»åä½œå®Œæˆï¼Œå§”æ‰˜ç»™ä¸­ä»‹è€…
 	 */
 	public void depMethod1(){
-		System.out.println("×Ô¼º²»ÄÜ¶ÀÁ¢Íê³ÉµÄÒµÎñÂß¼­");
+		System.out.println("è‡ªå·±ä¸èƒ½ç‹¬ç«‹å®Œæˆçš„ä¸šåŠ¡é€»è¾‘");
 		super.mediator.doSomthing1();
 	}
 

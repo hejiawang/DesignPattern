@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.develop.compel;
+锘縫ackage com.wang.proxyPattern.develop.compel;
 
 /**
- * 强制代理的代理类
+ * 寮哄埗浠ｇ悊鐨勪唬鐞嗙被
  * @author HeJW
  *
  */

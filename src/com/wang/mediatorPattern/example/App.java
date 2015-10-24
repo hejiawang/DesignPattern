@@ -1,4 +1,4 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 public class App {
 
@@ -6,15 +6,15 @@ public class App {
 
 		AbstractMediator mediator = new Mediator();
 
-		System.out.println("-------²É¹ºÈËÔ±²É¹ºµçÄÔ--------");
+		System.out.println("-------é‡‡è´­äººå‘˜é‡‡è´­ç”µè„‘--------");
 		Purchase purchase = new Purchase(mediator);
 		purchase.buyIBMComputer(100);
 
-		System.out.println("-------ÏúÊÛÈËÔ±ÏúÊÛµçÄÔ--------");
+		System.out.println("-------é”€å”®äººå‘˜é”€å”®ç”µè„‘--------");
 		Sale sale = new Sale(mediator);
 		sale.sellIBMComputer(1);
 
-		System.out.println("-------¿â´æ¹ÜÀíÈËÔ±Çå»õ´¦Àí--------");
+		System.out.println("-------åº“å­˜ç®¡ç†äººå‘˜æ¸…è´§å¤„ç†--------");
 		Stock stock = new Stock(mediator);
 		stock.clearStock();
 	}

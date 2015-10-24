@@ -1,4 +1,4 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 import java.util.Random;
 
@@ -11,14 +11,14 @@ public class Sale extends AbstractColleague {
 	public void sellIBMComputer(int number) {
 
 		super.mediator.execute("sale.sell", number);
-		System.out.println("ÏúÊÛµçÄÔ£º" + number + "Ì¨");
+		System.out.println("é”€å”®ç”µè„‘ï¼š" + number + "å°");
 	}
 
 	public int getSaleStatus() {
 
 		Random rand = new Random();
 		int saleStatus = rand.nextInt(100);
-		System.out.println("µçÄÔÏúÊÛÇé¿öÎª£º" + saleStatus);
+		System.out.println("ç”µè„‘é”€å”®æƒ…å†µä¸ºï¼š" + saleStatus);
 		return saleStatus;
 	}
 

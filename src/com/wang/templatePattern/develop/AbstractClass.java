@@ -1,23 +1,23 @@
-package com.wang.templatePattern.develop;
+ï»¿package com.wang.templatePattern.develop;
 
 /**
- * ³éÏóÄ£°åÀà
+ * æŠ½è±¡æ¨¡æ¿ç±»
  * @author HeJW
  *
  */
 public abstract class AbstractClass {
 	
-	//»ù±¾·½·¨
+	//åŸºæœ¬æ–¹æ³•
 	protected abstract void  method1();
 	protected abstract void  method2();
 	protected abstract void  method3();
 	
-	//Ä£°å·½·¨
+	//æ¨¡æ¿æ–¹æ³•
 	final public void templateMethod(){
-		//µ÷ÓÃ»ù±¾·½·¨£¬Íê³ÉÒµÎñÂß¼­
+		//è°ƒç”¨åŸºæœ¬æ–¹æ³•ï¼Œå®Œæˆä¸šåŠ¡é€»è¾‘
 		this.method1();
 		
-		//¸ù¾İÌõ¼şÅĞ¶ÏÕâ¸ö·½·¨Ö´ĞĞ²»Ö´ĞĞ
+		//æ ¹æ®æ¡ä»¶åˆ¤æ–­è¿™ä¸ªæ–¹æ³•æ‰§è¡Œä¸æ‰§è¡Œ
 		if ( this.condition() ) {
 			this.method2();
 		}
@@ -25,7 +25,7 @@ public abstract class AbstractClass {
 		this.method3();
 	}
 	
-	//¹³×Óº¯Êı
+	//é’©å­å‡½æ•°
 	protected boolean condition() {
 		return true;
 	}

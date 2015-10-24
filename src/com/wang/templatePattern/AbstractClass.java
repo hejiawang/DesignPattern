@@ -1,20 +1,20 @@
-package com.wang.templatePattern;
+ï»¿package com.wang.templatePattern;
 
 /**
- * ³éÏóÄ£°åÀà
+ * æŠ½è±¡æ¨¡æ¿ç±»
  * @author HeJW
  *
  */
 public abstract class AbstractClass {
 	
-	//»ù±¾·½·¨
+	//åŸºæœ¬æ–¹æ³•
 	protected abstract void  method1();
 	protected abstract void  method2();
 	protected abstract void  method3();
 	
-	//Ä£°å·½·¨
+	//æ¨¡æ¿æ–¹æ³•
 	final public void templateMethod(){
-		//µ÷ÓÃ»ù±¾·½·¨£¬Íê³ÉÒµÎñÂß¼­
+		//è°ƒç”¨åŸºæœ¬æ–¹æ³•ï¼Œå®Œæˆä¸šåŠ¡é€»è¾‘
 		this.method1();
 		this.method2();
 		this.method3();

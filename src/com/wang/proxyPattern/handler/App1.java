@@ -1,4 +1,4 @@
-package com.wang.proxyPattern.handler;
+ï»¿package com.wang.proxyPattern.handler;
 
 import java.lang.reflect.InvocationHandler;
 
@@ -6,13 +6,13 @@ public class App1 {
 	
 	public static void main(String[] args) {
 		
-		//¶¨ÒåÒ»¸öÖ÷Ìâ
+		//å®šä¹‰ä¸€ä¸ªä¸»é¢˜
 		Subject subject = new  RealSubject();
 		
-		//¶¨ÒåÒ»¸öHandler
+		//å®šä¹‰ä¸€ä¸ªHandler
 		InvocationHandler handler = new MyInvocationHandler(subject);
 		
-		//¶¨ÒåÖ÷ÌâµÄ´úÀí
+		//å®šä¹‰ä¸»é¢˜çš„ä»£ç†
 		Subject proxy = DynamicProxy.newProxyInstance(subject.getClass().getClassLoader(), 
 				subject.getClass().getInterfaces(), handler);
 		proxy.doSomething(" hello handler ");

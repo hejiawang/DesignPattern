@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.develop.compel;
+锘縫ackage com.wang.proxyPattern.develop.compel;
 
 /**
- * 强制代理的接口类
+ * 寮哄埗浠ｇ悊鐨勬帴鍙ｇ被
  * @author HeJW
  *
  */
@@ -11,6 +11,6 @@ public interface IGamePlayer {
 	public void killBoss();
 	public void upgrade();	
 
-	//每个人都可以找到自己的代理类
+	//姣忎釜浜洪兘鍙互鎵惧埌鑷繁鐨勪唬鐞嗙被
 	public IGamePlayer getProxy();
 }

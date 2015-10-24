@@ -1,4 +1,4 @@
-package com.wang.prototypePattern;
+﻿package com.wang.prototypePattern;
 
 public class App {
 	

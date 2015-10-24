@@ -1,9 +1,9 @@
-package com.wang.iteratorPattern;
+ï»¿package com.wang.iteratorPattern;
 
 import java.util.Vector;
 
 /**
- * ¾ßÌåµü´úÆ÷
+ * å…·ä½“è¿­ä»£å™¨
  * 
  * @author wang
  * 
@@ -11,7 +11,7 @@ import java.util.Vector;
 public class ConcreteIterator implements Iterator {
 
 	private Vector vector = new Vector();
-	public int cursor; // ¶¨Òåµ±Ç°ÓÎ±ê
+	public int cursor; // å®šä¹‰å½“å‰æ¸¸æ ‡
 	
 	public ConcreteIterator(Vector vector) {
 		this.vector = vector;

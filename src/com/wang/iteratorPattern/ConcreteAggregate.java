@@ -1,16 +1,16 @@
-package com.wang.iteratorPattern;
+ï»¿package com.wang.iteratorPattern;
 
 import java.util.Vector;
 
 /**
- * ¾ßÌåÈİÆ÷
+ * å…·ä½“å®¹å™¨
  * 
  * @author wang
  * 
  */
 public class ConcreteAggregate implements Aggregete {
 
-	private Vector vector = new Vector(); // ÈİÄÉ¶ÔÏóµÄÈİÆ÷
+	private Vector vector = new Vector(); // å®¹çº³å¯¹è±¡çš„å®¹å™¨
 	
 	@Override
 	public void add(Object object) {

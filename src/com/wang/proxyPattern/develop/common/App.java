@@ -1,4 +1,4 @@
-package com.wang.proxyPattern.develop.common;
+ï»¿package com.wang.proxyPattern.develop.common;
 
 import java.util.Date;
 
@@ -7,21 +7,21 @@ import com.wang.proxyPattern.example.IGamePlayer;
 public class App {
 	
 	public static void main(String[] args) {
-		IGamePlayer proxy = new GamePlayerProxy("ÕÅÈı");
-		System.out.println("¿ªÊ¼Ê±¼äÊÇ£º" + new Date());
+		IGamePlayer proxy = new GamePlayerProxy("å¼ ä¸‰");
+		System.out.println("å¼€å§‹æ—¶é—´æ˜¯ï¼š" + new Date());
 		proxy.login("zhangSan", "password");
 		proxy.killBoss();
 		proxy.upgrade();
-		System.out.println("½áÊøÊ±¼äÊÇ£º" + new Date());
+		System.out.println("ç»“æŸæ—¶é—´æ˜¯ï¼š" + new Date());
 
-//		//Í¨¹ıÔ¼¶¨£¬½ûÖ¹ÕâÃ´ÓÃ
+//		//é€šè¿‡çº¦å®šï¼Œç¦æ­¢è¿™ä¹ˆç”¨
 //		try {
-//			GamePlayer player = new GamePlayer(proxy, "ÕÅÈı");
-//			System.out.println("¿ªÊ¼Ê±¼äÊÇ£º" + new Date());
+//			GamePlayer player = new GamePlayer(proxy, "å¼ ä¸‰");
+//			System.out.println("å¼€å§‹æ—¶é—´æ˜¯ï¼š" + new Date());
 //			player.login("zhangSan", "password");
 //			player.killBoss();
 //			player.upgrade();
-//			System.out.println("½áÊøÊ±¼äÊÇ£º" + new Date());
+//			System.out.println("ç»“æŸæ—¶é—´æ˜¯ï¼š" + new Date());
 //		} catch (Exception e) {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();

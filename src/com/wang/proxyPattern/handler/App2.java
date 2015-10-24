@@ -1,4 +1,4 @@
-package com.wang.proxyPattern.handler;
+﻿package com.wang.proxyPattern.handler;
 
 public class App2 {
 	

@@ -1,7 +1,7 @@
-package com.wang.strategyPattern;
+ï»¿package com.wang.strategyPattern;
 
 /**
- * ³éÏóµÄ²ßÂÔ½ÇÉ«
+ * æŠ½è±¡çš„ç­–ç•¥è§’è‰²
  * 
  * @author HeJW
  * 
@@ -9,7 +9,7 @@ package com.wang.strategyPattern;
 public interface Strategy {
 
 	/**
-	 * ²ßÂÔ
+	 * ç­–ç•¥
 	 */
 	public void doSomething();
 }

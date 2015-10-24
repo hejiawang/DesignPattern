@@ -1,4 +1,4 @@
-package com.wang.ResponsibilityChainPattern.example;
+锘縫ackage com.wang.ResponsibilityChainPattern.example;
 
 public class Women implements IWomen {
 
@@ -9,13 +9,13 @@ public class Women implements IWomen {
 		this.type = type;
 		switch (this.type) {
 		case 1:
-			this.request = "女儿的请求是------" + request;
+			this.request = "濂冲効鐨勮姹傛槸------" + request;
 			break;
 		case 2:
-			this.request = "妻子的请求是------" + request;
+			this.request = "濡诲瓙鐨勮姹傛槸------" + request;
 			break;
 		case 3:
-			this.request = "母亲的请求是------" + request;
+			this.request = "姣嶄翰鐨勮姹傛槸------" + request;
 			break;
 		}
 	}

@@ -1,7 +1,7 @@
-package com.wang.singletonPattern;
+ï»¿package com.wang.singletonPattern;
 
 /**
- * ¶ñººÊ½µ¥Àı
+ * æ¶æ±‰å¼å•ä¾‹
  * @author HeJW
  *
  */
@@ -10,11 +10,11 @@ public class Singleton1 {
 	private static final Singleton1 singleton1 = new Singleton1();
 	
 	private Singleton1(){
-		System.out.println("´´½¨Singleton1ÊµÀı");
+		System.out.println("åˆ›å»ºSingleton1å®ä¾‹");
 	}
 	
 	/*
-	 * µ±ÆäËûÀàÒªÊ¹ÓÃ¸ÃÀàÊÇ£¬Í¨¹ıµ÷ÓÃ¸Ã·½·¨£¬µÃµ½¸ÃÀàµÄÊµÀı£¬²¢ÇÒµÃµ½µÄÓÀÔ¶¶¼ÊÇÕâÒ»¸ö
+	 * å½“å…¶ä»–ç±»è¦ä½¿ç”¨è¯¥ç±»æ˜¯ï¼Œé€šè¿‡è°ƒç”¨è¯¥æ–¹æ³•ï¼Œå¾—åˆ°è¯¥ç±»çš„å®ä¾‹ï¼Œå¹¶ä¸”å¾—åˆ°çš„æ°¸è¿œéƒ½æ˜¯è¿™ä¸€ä¸ª
 	 */
 	public static Singleton1 getSingleton1(){
 		return singleton1;

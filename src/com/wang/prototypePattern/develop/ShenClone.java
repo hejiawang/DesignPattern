@@ -1,9 +1,9 @@
-package com.wang.prototypePattern.develop;
+ï»¿package com.wang.prototypePattern.develop;
 
 import java.util.ArrayList;
 
 /**
- * Éî¿½±´
+ * æ·±æ‹·è´
  * 
  * @author HeJW
  * 
@@ -18,7 +18,7 @@ public class ShenClone implements Cloneable {
 		ShenClone shen = null;
 		try {
 			shen = (ShenClone) super.clone();
-			//±ÈÇ³¿½±´¶àÁËÒ»¾ä»°¡£¡£¡£
+			//æ¯”æµ…æ‹·è´å¤šäº†ä¸€å¥è¯ã€‚ã€‚ã€‚
 			shen.arrayList = (ArrayList<String>)this.arrayList.clone();
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
@@ -37,10 +37,10 @@ public class ShenClone implements Cloneable {
 	public static void main(String[] args) {
 		
 		ShenClone shen = new ShenClone();
-		shen.setValue("ÕÅÈı");
+		shen.setValue("å¼ ä¸‰");
 		
 		ShenClone shenClone = shen.clone();
-		shenClone.setValue("ÀîËÄ");
+		shenClone.setValue("æå››");
 		
 		System.out.println(shen.getValue());
 	}

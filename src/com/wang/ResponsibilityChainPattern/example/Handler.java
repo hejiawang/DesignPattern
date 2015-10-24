@@ -1,4 +1,4 @@
-package com.wang.ResponsibilityChainPattern.example;
+ï»¿package com.wang.ResponsibilityChainPattern.example;
 
 public abstract class Handler {
 
@@ -6,18 +6,18 @@ public abstract class Handler {
 	public final static int HUSBAND_LEVEL_REQUEST = 2;
 	public final static int SON_LEVEL_REQUEST = 3;
 
-	// ÄÜ´¦ÀíµÄ¼¶±ğ
+	// èƒ½å¤„ç†çš„çº§åˆ«
 	private int level = 0;
 
-	// ÔğÈÎ´«µİ£¬ÏÂÒ»¸öÔğÈÎÈËÊÇË­
+	// è´£ä»»ä¼ é€’ï¼Œä¸‹ä¸€ä¸ªè´£ä»»äººæ˜¯è°
 	private Handler nextHandler;
 
-	// Ã¿¸öÀà¶¼ÒªËµÃ÷×Ô¼ºÄÜ¹»´¦ÀíµÄ¼¶±ğ
+	// æ¯ä¸ªç±»éƒ½è¦è¯´æ˜è‡ªå·±èƒ½å¤Ÿå¤„ç†çš„çº§åˆ«
 	public Handler(int level) {
 		this.level = level;
 	}
 
-	// ´¦ÀíÒ»¸öÅ®ĞÔ£¨Å®¶ù£¬ÆŞ×Ó£¬Ä¸Ç×£©ÇëÇó¹ä½ÖµÄÇëÇó
+	// å¤„ç†ä¸€ä¸ªå¥³æ€§ï¼ˆå¥³å„¿ï¼Œå¦»å­ï¼Œæ¯äº²ï¼‰è¯·æ±‚é€›è¡—çš„è¯·æ±‚
 	public final void HandleMessage(IWomen women) {
 
 		if (women.getType() == this.level) {
@@ -26,8 +26,8 @@ public abstract class Handler {
 			if (this.nextHandler != null) {
 				this.nextHandler.HandleMessage(women);
 			} else {
-				// Ã»ÓĞÄÜ¹»´¦ÀíÇëÇóµÄÈËÁË£¬×ÔĞĞ´¦Àí
-				System.out.println("Ã»µØ·½ÇëÊ¾ÁË£¬°´Í¬Òâ´¦Àí");
+				// æ²¡æœ‰èƒ½å¤Ÿå¤„ç†è¯·æ±‚çš„äººäº†ï¼Œè‡ªè¡Œå¤„ç†
+				System.out.println("æ²¡åœ°æ–¹è¯·ç¤ºäº†ï¼ŒæŒ‰åŒæ„å¤„ç†");
 			}
 		}
 	}

@@ -1,9 +1,9 @@
-package com.wang.prototypePattern.develop;
+ï»¿package com.wang.prototypePattern.develop;
 
 import java.util.ArrayList;
 
 /**
- * Ç³¿½±´
+ * æµ…æ‹·è´
  * 
  * @author HeJW
  * 
@@ -35,10 +35,10 @@ public class QianClone implements Cloneable {
 	public static void main(String[] args) {
 		
 		QianClone qian = new QianClone();
-		qian.setValue("ÕÅÈı");
+		qian.setValue("å¼ ä¸‰");
 		
 		QianClone qianClone = qian.clone();
-		qianClone.setValue("ÀîËÄ");
+		qianClone.setValue("æå››");
 		
 		System.out.println(qian.getValue());
 	}

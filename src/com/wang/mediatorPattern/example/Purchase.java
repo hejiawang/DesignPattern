@@ -1,4 +1,4 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 public class Purchase extends AbstractColleague {
 
@@ -7,12 +7,12 @@ public class Purchase extends AbstractColleague {
 	}
 	
 	public void buyIBMComputer(int number) {
-		//×Ô¼º²»ÄÜ¶ÀÁ¢Íê³ÉµÄÈÎÎñ½»¸öÖĞ½éÕßÍê³É
+		//è‡ªå·±ä¸èƒ½ç‹¬ç«‹å®Œæˆçš„ä»»åŠ¡äº¤ä¸ªä¸­ä»‹è€…å®Œæˆ
 		super.mediator.execute("purchase.buy", number);
 	}
 	
 	public void refuseBuyIBM() {
 		
-		System.out.println("²»ÔÙ²É¹ºµçÄÔ");
+		System.out.println("ä¸å†é‡‡è´­ç”µè„‘");
 	}
 }

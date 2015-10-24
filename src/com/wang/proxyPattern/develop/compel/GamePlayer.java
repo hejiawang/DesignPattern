@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.develop.compel;
+ï»¿package com.wang.proxyPattern.develop.compel;
 
 /**
- * Ç¿ÖÆ´úÀíµÄÕæÊÇ½ÇÉ«
+ * å¼ºåˆ¶ä»£ç†çš„çœŸæ˜¯è§’è‰²
  * @author HeJW
  *
  */
@@ -9,7 +9,7 @@ public class GamePlayer implements IGamePlayer {
 
 	private String name = null;
 	
-	//´úÀíÀà
+	//ä»£ç†ç±»
 	private IGamePlayer proxy = null;
 	
 	public GamePlayer(String name) {
@@ -26,27 +26,27 @@ public class GamePlayer implements IGamePlayer {
 	public void login(String user, String password) {
 		
 		if (this.isProxy()) {
-			System.out.println( "ÓÃ»§ÃûÎª"+user + "µÄÓÃ»§£¬"+ this.name + "µÇÂ½³É¹¦");
+			System.out.println( "ç”¨æˆ·åä¸º"+user + "çš„ç”¨æˆ·ï¼Œ"+ this.name + "ç™»é™†æˆåŠŸ");
 		} else {
-			System.out.println("ÇëÊ¹ÓÃÖ¸¶¨µÄ´úÀíÀà");
+			System.out.println("è¯·ä½¿ç”¨æŒ‡å®šçš„ä»£ç†ç±»");
 		}
 	}
 
 	@Override
 	public void killBoss() {
 		if (this.isProxy()) {
-			System.out.println(this.name + "ÔÚ´ò¹Ö");
+			System.out.println(this.name + "åœ¨æ‰“æ€ª");
 		} else {
-			System.out.println("ÇëÊ¹ÓÃÖ¸¶¨µÄ´úÀíÀà");
+			System.out.println("è¯·ä½¿ç”¨æŒ‡å®šçš„ä»£ç†ç±»");
 		}
 	}
 
 	@Override
 	public void upgrade() {
 		if (this.isProxy()) {
-			System.out.println(this.name + "ÓÖÉıÒ»¼¶");
+			System.out.println(this.name + "åˆå‡ä¸€çº§");
 		} else {
-			System.out.println("ÇëÊ¹ÓÃÖ¸¶¨µÄ´úÀíÀà");
+			System.out.println("è¯·ä½¿ç”¨æŒ‡å®šçš„ä»£ç†ç±»");
 		}
 	}
 	

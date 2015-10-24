@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.example;
+ï»¿package com.wang.proxyPattern.example;
 
 /**
- * ÓÎÏ·´úÁ·Õß
+ * æ¸¸æˆä»£ç»ƒè€…
  * @author HeJW
  *
  */

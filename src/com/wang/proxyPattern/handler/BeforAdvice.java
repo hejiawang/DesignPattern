@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.handler;
+锘縫ackage com.wang.proxyPattern.handler;
 
 /**
- * 通知的实现类
+ * 閫氱煡鐨勫疄鐜扮被
  * @author HeJW
  *
  */
@@ -9,7 +9,7 @@ public class BeforAdvice implements IAdvice {
 
 	@Override
 	public void exec() {
-		System.out.println("前置通知");
+		System.out.println("鍓嶇疆閫氱煡");
 	}
 
 }

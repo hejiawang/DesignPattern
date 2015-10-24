@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 /**
- * ³éÏóÖĞ½éÕß
+ * æŠ½è±¡ä¸­ä»‹è€…
  * 
  * @author HeJW
  * 
@@ -19,7 +19,7 @@ public abstract class AbstractMediator {
 	}
 
 	/**
-	 * ÖĞ½éÕßÄ£Ê½ÖĞµÄÊÂ¼ş·½·¨</br> ´¦Àí¶à¸ö¶ÔÏóÖ®¼äµÄ¹ØÏµ
+	 * ä¸­ä»‹è€…æ¨¡å¼ä¸­çš„äº‹ä»¶æ–¹æ³•</br> å¤„ç†å¤šä¸ªå¯¹è±¡ä¹‹é—´çš„å…³ç³»
 	 * 
 	 * @param str
 	 * @param object

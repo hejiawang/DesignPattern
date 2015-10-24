@@ -1,4 +1,4 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 public class Stock extends AbstractColleague {
 
@@ -10,12 +10,12 @@ public class Stock extends AbstractColleague {
 
 	public void increase(int number) {
 		COMPUTER_NUMBER = COMPUTER_NUMBER + number;
-		System.out.println("¿â´æÊıÁ¿Îª" + COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸º" + COMPUTER_NUMBER);
 	}
 
 	public void decrease(int number) {
 		COMPUTER_NUMBER = COMPUTER_NUMBER - number;
-		System.out.println("¿â´æÊıÁ¿Îª" + COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸º" + COMPUTER_NUMBER);
 	}
 
 	public int getStockNumber() {
@@ -24,7 +24,7 @@ public class Stock extends AbstractColleague {
 
 	public void clearStock() {
 
-		System.out.println("ÇåÀí´æ»õÊıÁ¿Îª£º" + COMPUTER_NUMBER);
+		System.out.println("æ¸…ç†å­˜è´§æ•°é‡ä¸ºï¼š" + COMPUTER_NUMBER);
 		super.mediator.execute("stock.clear");
 	}
 

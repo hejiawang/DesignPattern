@@ -1,7 +1,7 @@
-package com.wang.templatePattern;
+ï»¿package com.wang.templatePattern;
 
 /**
- * ¾ßÌåÄ£°åÀà2
+ * å…·ä½“æ¨¡æ¿ç±»2
  * @author HeJW
  *
  */

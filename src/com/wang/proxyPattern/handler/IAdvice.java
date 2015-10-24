@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.handler;
+锘縫ackage com.wang.proxyPattern.handler;
 
 /**
- * 通知接口
+ * 閫氱煡鎺ュ彛
  * @author HeJW
  *
  */

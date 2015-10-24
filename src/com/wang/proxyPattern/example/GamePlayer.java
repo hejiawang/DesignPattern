@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.example;
+ï»¿package com.wang.proxyPattern.example;
 
 /**
- * ÓÎÏ·Õß
+ * æ¸¸æˆè€…
  * @author HeJW
  *
  */
@@ -15,17 +15,17 @@ public class GamePlayer implements IGamePlayer {
 
 	@Override
 	public void login(String user, String password) {
-		System.out.println( "ÓÃ»§ÃûÎª"+user + "µÄÓÃ»§£¬"+ this.name + "µÇÂ½³É¹¦");
+		System.out.println( "ç”¨æˆ·åä¸º"+user + "çš„ç”¨æˆ·ï¼Œ"+ this.name + "ç™»é™†æˆåŠŸ");
 	}
 
 	@Override
 	public void killBoss() {
-		System.out.println(this.name + "ÔÚ´ò¹Ö");
+		System.out.println(this.name + "åœ¨æ‰“æ€ª");
 	}
 
 	@Override
 	public void upgrade() {
-		System.out.println(this.name + "ÓÖÉıÒ»¼¶");
+		System.out.println(this.name + "åˆå‡ä¸€çº§");
 	}
 
 }

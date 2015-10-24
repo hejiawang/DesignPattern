@@ -1,4 +1,4 @@
-package com.wang.proxyPattern.example;
+ï»¿package com.wang.proxyPattern.example;
 
 import java.util.Date;
 
@@ -6,12 +6,12 @@ public class App2 {
 	
 	public static void main(String[] args) {
 		
-		IGamePlayer player = new GamePlayer("ÕÅÈı");
+		IGamePlayer player = new GamePlayer("å¼ ä¸‰");
 		IGamePlayer proxy = new GamePlayerProxy(player);
-		System.out.println("¿ªÊ¼Ê±¼äÊÇ£º" + new Date());
+		System.out.println("å¼€å§‹æ—¶é—´æ˜¯ï¼š" + new Date());
 		proxy.login("zhangSan", "password");
 		proxy.killBoss();
 		proxy.upgrade();
-		System.out.println("½áÊøÊ±¼äÊÇ£º" + new Date());
+		System.out.println("ç»“æŸæ—¶é—´æ˜¯ï¼š" + new Date());
 	}
 }

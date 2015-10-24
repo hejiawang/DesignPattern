@@ -1,7 +1,7 @@
-package com.wang.strategyPattern;
+ï»¿package com.wang.strategyPattern;
 
 /**
- * ¾ßÌå²ßÂÔ½ÇÉ«
+ * å…·ä½“ç­–ç•¥è§’è‰²
  * 
  * @author HeJW
  * 
@@ -11,6 +11,6 @@ public class ConcreteStrategy1 implements Strategy {
 	@Override
 	public void doSomething() {
 
-		System.out.println("¾ßÌå²ßÂÔ½ÇÉ«1µÄ²ßÂÔ");
+		System.out.println("å…·ä½“ç­–ç•¥è§’è‰²1çš„ç­–ç•¥");
 	}
 }

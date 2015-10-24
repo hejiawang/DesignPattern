@@ -1,7 +1,7 @@
-package com.wang.strategyPattern;
+ï»¿package com.wang.strategyPattern;
 
 /**
- * ·â×°½ÇÉ«
+ * å°è£…è§’è‰²
  * 
  * @author HeJW
  * 
@@ -11,10 +11,10 @@ public class Context {
 	private Strategy strategy = null;
 
 	/**
-	 * Í¨¹ı¹¹Ôìº¯ÊıÉèÖÃ¾ßÌå²ßÂÔ
+	 * é€šè¿‡æ„é€ å‡½æ•°è®¾ç½®å…·ä½“ç­–ç•¥
 	 * 
 	 * @param strategy
-	 *            ¾ßÌå²ßÂÔ
+	 *            å…·ä½“ç­–ç•¥
 	 */
 	public Context(Strategy strategy) {
 
@@ -22,7 +22,7 @@ public class Context {
 	}
 
 	/**
-	 * ·â×°ºóµÄ²ßÂÔ·½·¨
+	 * å°è£…åçš„ç­–ç•¥æ–¹æ³•
 	 */
 	public void doAnything() {
 		this.strategy.doSomething();

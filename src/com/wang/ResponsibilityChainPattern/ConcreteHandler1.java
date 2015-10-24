@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+ï»¿package com.wang.ResponsibilityChainPattern;
 
 /**
- * ¾ßÌå´¦ÀíÕß1
+ * å…·ä½“å¤„ç†è€…1
  * 
  * @author HeJW
  * 
@@ -10,13 +10,13 @@ public class ConcreteHandler1 extends Handler {
 
 	@Override
 	protected Level getHandlerLevel() {
-		// ÉèÖÃ×Ô¼ºµÄ´¦Àí¼¶±ğ
+		// è®¾ç½®è‡ªå·±çš„å¤„ç†çº§åˆ«
 		return null;
 	}
 
 	@Override
 	protected Response echo(Request request) {
-		// Íê³É´¦ÀíÂß¼­
+		// å®Œæˆå¤„ç†é€»è¾‘
 		return null;
 	}
 

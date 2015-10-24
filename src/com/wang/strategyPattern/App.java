@@ -1,4 +1,4 @@
-package com.wang.strategyPattern;
+﻿package com.wang.strategyPattern;
 
 public class App {
 

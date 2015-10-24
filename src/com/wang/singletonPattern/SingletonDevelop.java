@@ -1,22 +1,22 @@
-package com.wang.singletonPattern;
+ï»¿package com.wang.singletonPattern;
 
 import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * µ¥ÀıÄ£Ê½À©Õ¹£¬Éú³ÉÖ¸¶¨ÊıÁ¿µÄÊµÀı
+ * å•ä¾‹æ¨¡å¼æ‰©å±•ï¼Œç”ŸæˆæŒ‡å®šæ•°é‡çš„å®ä¾‹
  * @author HeJW
  *
  */
 public class SingletonDevelop {
 
-	//¶¨Òå×î¶àÄÜÉú²úÁ½¸öÊµÀı
+	//å®šä¹‰æœ€å¤šèƒ½ç”Ÿäº§ä¸¤ä¸ªå®ä¾‹
 	private static int maxNum = 2;
 	
-	//¶¨ÒåÒ»¸öÁĞ±í£¬ÈİÄÉ¶àÓĞµÄÊµÀı
+	//å®šä¹‰ä¸€ä¸ªåˆ—è¡¨ï¼Œå®¹çº³å¤šæœ‰çš„å®ä¾‹
 	private static ArrayList<SingletonDevelop> singletonDeveloplist = new ArrayList<SingletonDevelop>();
 	
-	//²úÉúÖ¸¶¨ÊıÁ¿µÄÊµÀı¶ÔÏó
+	//äº§ç”ŸæŒ‡å®šæ•°é‡çš„å®ä¾‹å¯¹è±¡
 	static{
 		for( int i=0; i<maxNum; i++ ){
 			singletonDeveloplist.add(new SingletonDevelop());
@@ -24,10 +24,10 @@ public class SingletonDevelop {
 	}
 	
 	private SingletonDevelop(){
-		System.out.println("´´½¨SingletonDevelopÊµÀı");
+		System.out.println("åˆ›å»ºSingletonDevelopå®ä¾‹");
 	}
 	
-	//µÃµ½Ëæ»úµÄSingletonDevelopÊµÀı
+	//å¾—åˆ°éšæœºçš„SingletonDevelopå®ä¾‹
 	public static SingletonDevelop getSingletonDevelop(){
 		Random randrom = new Random();
 		int singletonDevelopNum = randrom.nextInt(maxNum);

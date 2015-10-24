@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+ï»¿package com.wang.ResponsibilityChainPattern;
 
 /**
- * ³éÏó´¦ÀíÕß
+ * æŠ½è±¡å¤„ç†è€…
  * 
  * @author HeJW
  * 
@@ -11,11 +11,11 @@ public abstract class Handler {
 	private Handler nextHandler;
 
 	/**
-	 * Ã¿¸ö´¦ÀíÕß¶¼±ØĞë¶ÔÇëÇó×÷³ö´¦Àí
+	 * æ¯ä¸ªå¤„ç†è€…éƒ½å¿…é¡»å¯¹è¯·æ±‚ä½œå‡ºå¤„ç†
 	 * 
 	 * @param request
-	 *            ÇëÇó
-	 * @return ´¦Àí½á¹û
+	 *            è¯·æ±‚
+	 * @return å¤„ç†ç»“æœ
 	 */
 	public final Response handleMessage(Request request) {
 
@@ -26,31 +26,31 @@ public abstract class Handler {
 			if (this.nextHandler != null) {
 				response = this.nextHandler.handleMessage(request);
 			} else {
-				// Ã»ÓĞ´¦ÀíÕß,ÒµÎñ×ÔĞĞ´¦Àí...
+				// æ²¡æœ‰å¤„ç†è€…,ä¸šåŠ¡è‡ªè¡Œå¤„ç†...
 			}
 		}
 		return response;
 	}
 
 	/**
-	 * ÉèÖÃÏÂÒ»¸ö´¦ÀíÕßÊÇË­
+	 * è®¾ç½®ä¸‹ä¸€ä¸ªå¤„ç†è€…æ˜¯è°
 	 * 
 	 * @param nextHandler
-	 *            ÏÂÒ»¸ö´¦ÀíÕß
+	 *            ä¸‹ä¸€ä¸ªå¤„ç†è€…
 	 */
 	public void setNext(Handler nextHandler) {
 		this.nextHandler = nextHandler;
 	}
 
 	/**
-	 * Ã¿¸ö´¦ÀíÕßµÄ´¦Àí¼¶±ğ
+	 * æ¯ä¸ªå¤„ç†è€…çš„å¤„ç†çº§åˆ«
 	 * 
-	 * @return ´¦Àí¼¶±ğ
+	 * @return å¤„ç†çº§åˆ«
 	 */
 	protected abstract Level getHandlerLevel();
 
 	/**
-	 * Ã¿¸ö´¦ÀíÕßËùÄÜ¹»´¦ÀíµÄÈÎÎñ
+	 * æ¯ä¸ªå¤„ç†è€…æ‰€èƒ½å¤Ÿå¤„ç†çš„ä»»åŠ¡
 	 * 
 	 * @param request
 	 * @return

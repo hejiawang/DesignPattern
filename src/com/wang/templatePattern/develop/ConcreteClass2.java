@@ -1,13 +1,13 @@
-package com.wang.templatePattern.develop;
+ï»¿package com.wang.templatePattern.develop;
 
 /**
- * ¾ßÌåÄ£°åÀà2
+ * å…·ä½“æ¨¡æ¿ç±»2
  * @author HeJW
  *
  */
 public class ConcreteClass2 extends AbstractClass {
 
-	//·½·¨²»Ö´ĞĞ
+	//æ–¹æ³•ä¸æ‰§è¡Œ
 	@Override
 	protected boolean condition() {
 		return false;

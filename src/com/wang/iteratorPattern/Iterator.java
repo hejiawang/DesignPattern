@@ -1,7 +1,7 @@
-package com.wang.iteratorPattern;
+ï»¿package com.wang.iteratorPattern;
 
 /**
- * ³éÏóµü´úÆ÷
+ * æŠ½è±¡è¿­ä»£å™¨
  * 
  * @author wang
  * 
@@ -9,21 +9,21 @@ package com.wang.iteratorPattern;
 public interface Iterator {
 
 	/**
-	 * ±éÀúÏÂÒ»¸öÔªËØ
+	 * éå†ä¸‹ä¸€ä¸ªå…ƒç´ 
 	 * 
 	 * @return
 	 */
 	public Object next();
 
 	/**
-	 * ÊÇ·ñ±éÀúµ½Î²²¿
+	 * æ˜¯å¦éå†åˆ°å°¾éƒ¨
 	 * 
 	 * @return
 	 */
 	public boolean hasNext();
 
 	/**
-	 * É¾³ıµ±Ç°Ö¸¶¨µÄÔªËØ
+	 * åˆ é™¤å½“å‰æŒ‡å®šçš„å…ƒç´ 
 	 * 
 	 * @return
 	 */

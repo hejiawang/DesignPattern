@@ -1,7 +1,7 @@
-package com.wang.iteratorPattern;
+ï»¿package com.wang.iteratorPattern;
 
 /**
- * ³éÏóÈİÆ÷
+ * æŠ½è±¡å®¹å™¨
  * 
  * @author wang
  * 
@@ -9,21 +9,21 @@ package com.wang.iteratorPattern;
 public interface Aggregete {
 
 	/**
-	 * Ìí¼ÓÔªËØ
+	 * æ·»åŠ å…ƒç´ 
 	 * 
 	 * @param object
 	 */
 	public void add(Object object);
 
 	/**
-	 * ÒÆ³ıÔªËØ
+	 * ç§»é™¤å…ƒç´ 
 	 * 
 	 * @param object
 	 */
 	public void remove(Object object);
 
 	/**
-	 * ÓÉµü´úÆ÷±éÀúËùÓĞÔªËØ
+	 * ç”±è¿­ä»£å™¨éå†æ‰€æœ‰å…ƒç´ 
 	 * 
 	 * @return
 	 */

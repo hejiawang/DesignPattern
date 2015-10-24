@@ -1,12 +1,12 @@
-package com.wang.proxyPattern.handler;
+锘縫ackage com.wang.proxyPattern.handler;
 
 /**
- * 抽象主题
+ * 鎶借薄涓婚
  * @author HeJW
  *
  */
 public interface Subject {
 	
-	//业务操作
+	//涓氬姟鎿嶄綔
 	public void doSomething(String str);
 }

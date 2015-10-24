@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern.before;
+ï»¿package com.wang.mediatorPattern.before;
 
 /**
- * ²É¹º¹ÜÀí
+ * é‡‡è´­ç®¡ç†
  * 
  * @author HeJW
  * 
@@ -9,31 +9,31 @@ package com.wang.mediatorPattern.before;
 public class Purchase {
 
 	/**
-	 * ²É¹ºµçÄÔ
+	 * é‡‡è´­ç”µè„‘
 	 * 
 	 * @param number
-	 *            µçÄÔÊıÁ¿
+	 *            ç”µè„‘æ•°é‡
 	 */
 	public void buyIBMComputer(int number) {
 
 		Stock stock = new Stock();
 		Sale sale = new Sale();
 		int saleStatus = sale.getSaleStatus();
-		if (saleStatus > 80) { // ÏúÊÛÇé¿öºÃ
-			System.out.println("²É¹ºµçÄÔ" + number + "Ì¨");
+		if (saleStatus > 80) { // é”€å”®æƒ…å†µå¥½
+			System.out.println("é‡‡è´­ç”µè„‘" + number + "å°");
 			stock.increase(number);
-		} else { // ÏúÊÛÇé¿ö²»ºÃ
+		} else { // é”€å”®æƒ…å†µä¸å¥½
 			int buyNumber = number / 2;
-			System.out.println("²É¹ºµçÄÔ" + number + "Ì¨");
+			System.out.println("é‡‡è´­ç”µè„‘" + number + "å°");
 			stock.increase(buyNumber);
 		}
 	}
 
 	/**
-	 * ²»ÔÙ²É¹ºµçÄÔ
+	 * ä¸å†é‡‡è´­ç”µè„‘
 	 */
 	public void refuseBuyIBM() {
 	
-		System.out.println("²»ÔÙ²É¹ºµçÄÔ");
+		System.out.println("ä¸å†é‡‡è´­ç”µè„‘");
 	}
 }

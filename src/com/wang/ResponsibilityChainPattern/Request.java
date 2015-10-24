@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+ï»¿package com.wang.ResponsibilityChainPattern;
 
 /**
- * ÇëÇóµÄµÈ¼¶
+ * è¯·æ±‚çš„ç­‰çº§
  * 
  * @author HeJW
  * 
@@ -9,9 +9,9 @@ package com.wang.ResponsibilityChainPattern;
 public class Request {
 
 	/**
-	 * ÇëÇóµÄµÈ¼¶
+	 * è¯·æ±‚çš„ç­‰çº§
 	 * 
-	 * @return ÇëÇóµÄµÈ¼¶
+	 * @return è¯·æ±‚çš„ç­‰çº§
 	 */
 	public Level getRequestLevel() {
 		return null;

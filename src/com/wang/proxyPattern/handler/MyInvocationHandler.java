@@ -1,16 +1,16 @@
-package com.wang.proxyPattern.handler;
+锘縫ackage com.wang.proxyPattern.handler;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * 动态代理的Handler
+ * 鍔ㄦ�佷唬鐞嗙殑Handler
  * @author HeJW
  *
  */
 public class MyInvocationHandler implements InvocationHandler {
 
-	//被代理的对象
+	//琚唬鐞嗙殑瀵硅薄
 	private Object target = null;
 	
 	public MyInvocationHandler(Object target) {

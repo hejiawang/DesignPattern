@@ -1,4 +1,4 @@
-package com.wang.strategyPattern.enumStrategy;
+﻿package com.wang.strategyPattern.enumStrategy;
 
 public class App {
 

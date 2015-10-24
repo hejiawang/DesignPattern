@@ -1,4 +1,4 @@
-package com.wang.ResponsibilityChainPattern.example;
+ï»¿package com.wang.ResponsibilityChainPattern.example;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -10,7 +10,7 @@ public class App {
 		Random random = new Random();
 		ArrayList<IWomen> womens = new ArrayList<IWomen>();
 		for (int i = 0; i < 5; i++) {
-			womens.add(new Women(random.nextInt(3), "ÎÒÒª³öÈ¥Íæ"));
+			womens.add(new Women(random.nextInt(3), "æˆ‘è¦å‡ºåŽ»çŽ©"));
 		}
 		Handler father = new Father();
 		Handler husband = new Husband();

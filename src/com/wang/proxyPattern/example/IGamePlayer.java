@@ -1,7 +1,7 @@
-package com.wang.proxyPattern.example;
+﻿package com.wang.proxyPattern.example;
 
 /**
- * ��Ϸ�߽ӿ�
+ * 游戏者接口
  * @author HeJW
  *
  */

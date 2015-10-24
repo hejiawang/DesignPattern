@@ -1,7 +1,7 @@
-package com.wang.templatePattern.develop;
+ï»¿package com.wang.templatePattern.develop;
 
 /**
- * ¾ßÌåÄ£°åÀà1
+ * å…·ä½“æ¨¡æ¿ç±»1
  * @author HeJW
  *
  */
@@ -9,7 +9,7 @@ public class ConcreteClass1 extends AbstractClass {
 
 	private boolean condition = true;
 	
-	//ÅĞ¶ÏÌõ¼şÓÉ¿Í»§¶Ë¾ö¶¨,Ä¬ÈÏÖ´ĞĞ
+	//åˆ¤æ–­æ¡ä»¶ç”±å®¢æˆ·ç«¯å†³å®š,é»˜è®¤æ‰§è¡Œ
 	public void setCondition( boolean condition ){
 		this.condition = condition;
 	}

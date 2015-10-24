@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern.before;
+ï»¿package com.wang.mediatorPattern.before;
 
 /**
- * ¿â´æ¹ÜÀí
+ * åº“å­˜ç®¡ç†
  * 
  * @author HeJW
  * 
@@ -11,44 +11,44 @@ public class Stock {
 	private static int COMPUTER_NUMBER = 100;
 
 	/**
-	 * ¿â´æÔö¼Ó
+	 * åº“å­˜å¢åŠ 
 	 * 
 	 * @param number
-	 *            ¿â´æÁ¿
+	 *            åº“å­˜é‡
 	 */
 	public void increase(int number) {
 		COMPUTER_NUMBER = COMPUTER_NUMBER + number;
-		System.out.println("¿â´æÊıÁ¿Îª" + COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸º" + COMPUTER_NUMBER);
 	}
 
 	/**
-	 * ¿â´æ½µµÍ
+	 * åº“å­˜é™ä½
 	 * 
 	 * @param number
-	 *            ¿â´æÁ¿
+	 *            åº“å­˜é‡
 	 */
 	public void decrease(int number) {
 		COMPUTER_NUMBER = COMPUTER_NUMBER - number;
-		System.out.println("¿â´æÊıÁ¿Îª" + COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸º" + COMPUTER_NUMBER);
 	}
 
 	/**
-	 * »ñµÃ¿â´æÊıÁ¿
+	 * è·å¾—åº“å­˜æ•°é‡
 	 * 
-	 * @return ¿â´æÊıÁ¿
+	 * @return åº“å­˜æ•°é‡
 	 */
 	public int getStockNumber() {
 		return COMPUTER_NUMBER;
 	}
 
 	/**
-	 * ´æ»õÑ¹Á¦´ó£¬Í¨Öª²É¹ºÈËÔ±²»Òª²É¹º£¬ÏúÊÛÈËÔ±¾¡¿ìÏúÊÛ
+	 * å­˜è´§å‹åŠ›å¤§ï¼Œé€šçŸ¥é‡‡è´­äººå‘˜ä¸è¦é‡‡è´­ï¼Œé”€å”®äººå‘˜å°½å¿«é”€å”®
 	 */
 	public void clearStock() {
 
 		Purchase purchase = new Purchase();
 		Sale sale = new Sale();
-		System.out.println("ÇåÀí´æ»õÊıÁ¿Îª£º" + COMPUTER_NUMBER);
+		System.out.println("æ¸…ç†å­˜è´§æ•°é‡ä¸ºï¼š" + COMPUTER_NUMBER);
 		sale.offSale();
 		purchase.refuseBuyIBM();
 	}

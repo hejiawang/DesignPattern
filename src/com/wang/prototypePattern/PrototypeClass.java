@@ -1,14 +1,14 @@
-package com.wang.prototypePattern;
+锘縫ackage com.wang.prototypePattern;
 
 /**
- * 原型模式
+ * 鍘熷瀷妯″紡
  * @author HeJW
  *
  */
 public class PrototypeClass implements Cloneable {
 
 	public PrototypeClass(){
-		System.out.println("创建");
+		System.out.println("鍒涘缓");
 	}
 	
 	@Override

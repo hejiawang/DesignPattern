@@ -1,7 +1,7 @@
-package com.wang.proxyPattern;
+ï»¿package com.wang.proxyPattern;
 
 /**
- * ÕæÊÇÖ÷ÌâÀà
+ * çœŸæ˜¯ä¸»é¢˜ç±»
  * @author HeJW
  *
  */
@@ -9,7 +9,7 @@ public class RealSubject implements Subject {
 
 	@Override
 	public void request() {
-		//´¦ÀíÒµÎñÂß¼­
+		//å¤„ç†ä¸šåŠ¡é€»è¾‘
 	}
 
 }

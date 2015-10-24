@@ -1,11 +1,11 @@
-package com.wang.templatePattern.develop;
+ï»¿package com.wang.templatePattern.develop;
 
 public class App {
 	
 	public static void main(String[] args) {
 		
 		ConcreteClass1 class1 = new ConcreteClass1();
-		//²»Ö´ĞĞ
+		//ä¸æ‰§è¡Œ
 		class1.setCondition(false);
 		class1.templateMethod();
 		

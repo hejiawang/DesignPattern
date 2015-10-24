@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+锘縫ackage com.wang.ResponsibilityChainPattern;
 
 /**
- * 责任链模式场景类
+ * 璐ｄ换閾炬ā寮忓満鏅被
  * 
  * @author HeJW
  * 

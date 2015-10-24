@@ -1,9 +1,9 @@
-package com.wang.proxyPattern.develop.common;
+ï»¿package com.wang.proxyPattern.develop.common;
 
 import com.wang.proxyPattern.example.IGamePlayer;
 
 /**
- * ÆÕÍ¨´úÀíµÄÓÎÏ·Õß 
+ * æ™®é€šä»£ç†çš„æ¸¸æˆè€… 
  * @author HeJW
  *
  */
@@ -14,7 +14,7 @@ public class GamePlayer implements IGamePlayer {
 	public GamePlayer( IGamePlayer _gamePlayer, String name ) throws Exception{
 		
 		if( _gamePlayer == null ){
-			throw new Exception("²»ÄÜ´´½¨ÕæÊÇ½ÇÉ«");
+			throw new Exception("ä¸èƒ½åˆ›å»ºçœŸæ˜¯è§’è‰²");
 		} else {
 			this.name = name;
 		}
@@ -22,17 +22,17 @@ public class GamePlayer implements IGamePlayer {
 	
 	@Override
 	public void login(String user, String password) {
-		System.out.println( "ÓÃ»§ÃûÎª"+user + "µÄÓÃ»§£¬"+ this.name + "µÇÂ½³É¹¦");
+		System.out.println( "ç”¨æˆ·åä¸º"+user + "çš„ç”¨æˆ·ï¼Œ"+ this.name + "ç™»é™†æˆåŠŸ");
 	}
 
 	@Override
 	public void killBoss() {
-		System.out.println(this.name + "ÔÚ´ò¹Ö");
+		System.out.println(this.name + "åœ¨æ‰“æ€ª");
 	}
 
 	@Override
 	public void upgrade() {
-		System.out.println(this.name + "ÓÖÉıÒ»¼¶");
+		System.out.println(this.name + "åˆå‡ä¸€çº§");
 	}
 
 }

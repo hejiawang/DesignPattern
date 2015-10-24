@@ -1,7 +1,7 @@
-package com.wang.ResponsibilityChainPattern;
+锘縫ackage com.wang.ResponsibilityChainPattern;
 
 /**
- * 定义一个请求和处理等级
+ * 瀹氫箟涓�涓姹傚拰澶勭悊绛夌骇
  * 
  * @author HeJW
  * 

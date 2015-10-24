@@ -1,7 +1,7 @@
-package com.wang.mediatorPattern.example;
+ï»¿package com.wang.mediatorPattern.example;
 
 /**
- * ¾ßÌåÖĞ½éÕß
+ * å…·ä½“ä¸­ä»‹è€…
  * 
  * @author HeJW
  * 
@@ -23,46 +23,46 @@ public class Mediator extends AbstractMediator {
 	}
 
 	/**
-	 * ²É¹ºµçÄÔ
+	 * é‡‡è´­ç”µè„‘
 	 * 
 	 * @param number
 	 */
 	private void buyComputer(int number) {
 
 		int saleStatus = super.sale.getSaleStatus();
-		if (saleStatus > 80) { // ÏúÊÛÇé¿öºÃ
-			System.out.println("²É¹ºµçÄÔ" + number + "Ì¨");
+		if (saleStatus > 80) { // é”€å”®æƒ…å†µå¥½
+			System.out.println("é‡‡è´­ç”µè„‘" + number + "å°");
 			super.stock.increase(number);
-		} else { // ÏúÊÛÇé¿ö²»ºÃ
+		} else { // é”€å”®æƒ…å†µä¸å¥½
 			int buyNumber = number / 2;
-			System.out.println("²É¹ºµçÄÔ" + number + "Ì¨");
+			System.out.println("é‡‡è´­ç”µè„‘" + number + "å°");
 			super.stock.increase(buyNumber);
 		}
 	}
 
 	/**
-	 * ÏúÊÛµçÄÔ
+	 * é”€å”®ç”µè„‘
 	 * 
 	 * @param number
 	 */
 	private void sellComputer(int number) {
 
-		if (stock.getStockNumber() < number) { // ¿â´æÊıÁ¿²»¹»ÏúÊÛ
+		if (stock.getStockNumber() < number) { // åº“å­˜æ•°é‡ä¸å¤Ÿé”€å”®
 			super.purchase.buyIBMComputer(number);
 		}
-		System.out.println("ÏúÊÛµçÄÔ£º" + number + "Ì¨");
+		System.out.println("é”€å”®ç”µè„‘ï¼š" + number + "å°");
 		super.stock.decrease(number);
 	}
 
 	/**
-	 * ÕÛ¼ÛÏúÊÛµçÄÔ
+	 * æŠ˜ä»·é”€å”®ç”µè„‘
 	 */
 	private void offSell() {
-		System.out.println("ÕÛ°ëÏúÊÛµçÄÔ" + super.stock.getStockNumber() + "Ì¨");
+		System.out.println("æŠ˜åŠé”€å”®ç”µè„‘" + super.stock.getStockNumber() + "å°");
 	}
 
 	/**
-	 * Çå²Ö´¦Àí
+	 * æ¸…ä»“å¤„ç†
 	 */
 	private void clearStock() {
 
