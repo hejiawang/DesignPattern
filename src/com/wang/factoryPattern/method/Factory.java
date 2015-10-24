@@ -1,20 +1,20 @@
-package com.wang.factoryPattern.method;
+ï»¿package com.wang.factoryPattern.method;
 
 /**
- * ¹¤³§·½·¨µÄ½Ó¿Ú
+ * å·¥å‚æ–¹æ³•çš„æ¥å£
  * @author HeJW
  *
  */
 public interface Factory {
 	
 	/*
-	 * ´´½¨Ò»¸ö²úÆ·¶ÔÏó£¬ÆäÊäÈë²ÎÊıÀàĞÍ¿ÉÒÔ×ÔĞĞÉèÖÃ
-	 * Í¨³£ÎªString¡¢Enum¡¢ClassµÈ£¬µ±È»Ò²¿ÉÒÔÎª¿Õ
+	 * åˆ›å»ºä¸€ä¸ªäº§å“å¯¹è±¡ï¼Œå…¶è¾“å…¥å‚æ•°ç±»å‹å¯ä»¥è‡ªè¡Œè®¾ç½®
+	 * é€šå¸¸ä¸ºStringã€Enumã€Classç­‰ï¼Œå½“ç„¶ä¹Ÿå¯ä»¥ä¸ºç©º
 	 */
 	
-	//ÊäÈëÀàĞÍÎªClass
+	//è¾“å…¥ç±»å‹ä¸ºClass
 	public <T extends Product> T productFactory1(Class<T> c);
 	
-	//ÊäÈëÀàĞÍÎªString
+	//è¾“å…¥ç±»å‹ä¸ºString
 	public Product productFactory2(String product);
 }

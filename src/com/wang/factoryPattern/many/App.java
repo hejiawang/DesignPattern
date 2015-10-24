@@ -1,4 +1,4 @@
-package com.wang.factoryPattern.many;
+﻿package com.wang.factoryPattern.many;
 
 import com.wang.factoryPattern.method.ConcreteProduct1;
 

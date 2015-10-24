@@ -1,4 +1,4 @@
-package com.wang.factoryPattern.singleton;
+﻿package com.wang.factoryPattern.singleton;
 
 public class App {
 	

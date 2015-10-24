@@ -1,4 +1,4 @@
-package com.wang.factoryPattern.abstractF;
+﻿package com.wang.factoryPattern.abstractF;
 
 public class Product1Factory implements IProductFactory {
 

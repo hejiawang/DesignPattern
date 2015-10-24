@@ -1,7 +1,7 @@
-package com.wang.decoratorPattern;
+锘縫ackage com.wang.decoratorPattern;
 
 /**
- * 具体构建
+ * 鍏蜂綋鏋勫缓
  * 
  * @author HeJW
  * 

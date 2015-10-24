@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * 添加需求的命令
+ * 娣诲姞闇�姹傜殑鍛戒护
  * 
  * @author HeJW
  * 

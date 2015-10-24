@@ -1,14 +1,14 @@
-package com.wang.factoryPattern.method;
+ï»¿package com.wang.factoryPattern.method;
 
 /**
- * ¾ßÌå²úÆ·Àà1
+ * å…·ä½“äº§å“ç±»1
  * @author HeJW
  *
  */
 public class ConcreteProduct1 implements Product {
 
 	public ConcreteProduct1(){
-		System.out.println("ConcreteProduct1 ±»´´½¨");
+		System.out.println("ConcreteProduct1 è¢«åˆ›å»º");
 	}
 	
 	@Override

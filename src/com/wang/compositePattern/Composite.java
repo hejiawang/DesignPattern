@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Ê÷Ö¦¹¹¼ş
+ * æ ‘ææ„ä»¶
  * 
  * @author wang
  * 
@@ -12,12 +12,12 @@ import java.util.List;
 public class Composite extends Component {
 
 	/**
-	 * ¹¹¼şÈİÆ÷
+	 * æ„ä»¶å®¹å™¨
 	 */
 	private List<Component> componentList = new ArrayList<Component>();
 
 	/**
-	 * Ìí¼ÓÒ»¸öÒ¶×Ó¹¹¼ş»òÕßÊ÷Ö¦¹¹¼ş
+	 * æ·»åŠ ä¸€ä¸ªå¶å­æ„ä»¶æˆ–è€…æ ‘ææ„ä»¶
 	 * 
 	 * @param component
 	 */
@@ -26,7 +26,7 @@ public class Composite extends Component {
 	}
 
 	/**
-	 * É¾³ıÒ»¸öÒ¶×Ó¹¹¼ş»òÕßÊ÷Ö¦¹¹¼ş
+	 * åˆ é™¤ä¸€ä¸ªå¶å­æ„ä»¶æˆ–è€…æ ‘ææ„ä»¶
 	 * 
 	 * @param component
 	 */
@@ -35,7 +35,7 @@ public class Composite extends Component {
 	}
 	
 	/**
-	 * »ñµÃ·ÖÖ§ÏÂµÄËùÓĞÒ¶×Ó¹¹¼ş»òÕßÊ÷Ö¦¹¹¼ş
+	 * è·å¾—åˆ†æ”¯ä¸‹çš„æ‰€æœ‰å¶å­æ„ä»¶æˆ–è€…æ ‘ææ„ä»¶
 	 * @return
 	 */
 	public List<Component> getChildren(){

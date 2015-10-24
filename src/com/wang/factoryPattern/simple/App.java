@@ -1,9 +1,9 @@
-package com.wang.factoryPattern.simple;
+锘縫ackage com.wang.factoryPattern.simple;
 
 import com.wang.factoryPattern.method.ConcreteProduct1;
 
 /**
- * 简单工厂测试类
+ * 绠�鍗曞伐鍘傛祴璇曠被
  * @author HeJW
  *
  */

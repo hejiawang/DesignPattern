@@ -1,7 +1,7 @@
 package com.wang.compositePattern;
 
 /**
- * ×éºÏÄ£Ê½µÄ³éÏó¹¹½¨£¬×î¶¥²ãµÄ³éÏóÄ£¿é
+ * ç»„åˆæ¨¡å¼çš„æŠ½è±¡æ„å»ºï¼Œæœ€é¡¶å±‚çš„æŠ½è±¡æ¨¡å—
  * 
  * @author wang
  * 
@@ -9,7 +9,7 @@ package com.wang.compositePattern;
 public abstract class Component {
 
 	/**
-	 * ¸öÌåºÍÕûÌå¶¼¾ßÓĞµÄ·½·¨
+	 * ä¸ªä½“å’Œæ•´ä½“éƒ½å…·æœ‰çš„æ–¹æ³•
 	 */
 	public void doSomething() {
 		System.out.println(" Component doSomething ...");

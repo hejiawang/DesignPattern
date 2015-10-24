@@ -4,16 +4,16 @@ public class Client {
 
 	public static void main(String[] args) {
 		
-		//Ê×ÏÈ¶¨ÒåÒ»¸öÖ´ĞĞÃüÁîµÄÈË
+		//é¦–å…ˆå®šä¹‰ä¸€ä¸ªæ‰§è¡Œå‘½ä»¤çš„äºº
 		Invoker invoker = new Invoker();
 		
-		//¶¨Òå½ÓÊÕÕß£¬Ò²¾ÍÊÇ¸ÉÊ²Ã´»î
+		//å®šä¹‰æ¥æ”¶è€…ï¼Œä¹Ÿå°±æ˜¯å¹²ä»€ä¹ˆæ´»
 		Receiver receiver = new ConcreteReceiver1();
 		
-		//¶¨ÒåÃüÁî
+		//å®šä¹‰å‘½ä»¤
 		Command command = new ConcreteCommand1(receiver);
 		
-		//°ÑÃüÁî½»¸øÃüÁîÖ´ĞĞÕß£¬²¢Ö´ĞĞ
+		//æŠŠå‘½ä»¤äº¤ç»™å‘½ä»¤æ‰§è¡Œè€…ï¼Œå¹¶æ‰§è¡Œ
 		invoker.setCommand(command);
 		invoker.action();
 	}

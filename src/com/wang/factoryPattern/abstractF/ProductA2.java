@@ -1,10 +1,10 @@
-package com.wang.factoryPattern.abstractF;
+ï»¿package com.wang.factoryPattern.abstractF;
 
 public class ProductA2 extends AbstractProductA {
 
 	@Override
 	public void doSomething() {
-		System.out.println("²úÆ·AµÄµÚ2¸öÊµÏÖ");
+		System.out.println("äº§å“Açš„ç¬¬2ä¸ªå®ç°");
 	}
 
 }

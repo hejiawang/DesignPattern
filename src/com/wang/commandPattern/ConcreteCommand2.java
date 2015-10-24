@@ -2,11 +2,11 @@ package com.wang.commandPattern;
 
 public class ConcreteCommand2 extends Command {
 
-	// ÈÃË­¸É»î
+	// è®©è°å¹²æ´»
 	private Receiver receiver;
 
 	/**
-	 * Í¨¹ı¹¹Ôìº¯Êı£¬´«µİ¸É»îµÄ¡°ÈË¡±
+	 * é€šè¿‡æ„é€ å‡½æ•°ï¼Œä¼ é€’å¹²æ´»çš„â€œäººâ€
 	 * 
 	 * @param receiver
 	 */
@@ -15,7 +15,7 @@ public class ConcreteCommand2 extends Command {
 	}
 
 	/**
-	 * Õâ¸öÃüÁîÒª×öÊ²Ã´ÊÂ
+	 * è¿™ä¸ªå‘½ä»¤è¦åšä»€ä¹ˆäº‹
 	 */
 	@Override
 	public void execute() {

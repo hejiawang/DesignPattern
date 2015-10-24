@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * ³éÏóÃüÁîÀà
+ * æŠ½è±¡å‘½ä»¤ç±»
  * 
  * @author HeJW
  * 
@@ -13,7 +13,7 @@ public abstract class Command {
 	protected CodeGroup cg = new CodeGroup();
 	
 	/**
-	 * Òª×öÊ²Ã´ÊÂ
+	 * è¦åšä»€ä¹ˆäº‹
 	 */
 	public abstract void execute();
 

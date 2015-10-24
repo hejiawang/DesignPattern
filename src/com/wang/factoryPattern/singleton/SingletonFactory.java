@@ -1,9 +1,9 @@
-package com.wang.factoryPattern.singleton;
+ï»¿package com.wang.factoryPattern.singleton;
 
 import java.lang.reflect.Constructor;
 
 /**
- * Ìæ´úµ¥ÀıÄ£Ê½µÄ¹¤³§Àà
+ * æ›¿ä»£å•ä¾‹æ¨¡å¼çš„å·¥å‚ç±»
  * @author HeJW
  *
  */
@@ -16,14 +16,14 @@ public class SingletonFactory {
 		try{
 			
 			Class c1 = Class.forName(Singleton.class.getName());
-			//»ñµÃÎŞ²Î¹¹Ôìº¯Êı
+			//è·å¾—æ— å‚æ„é€ å‡½æ•°
 			Constructor constructor = c1.getDeclaredConstructor();
-			//ÉèÖÃÎŞ²Î¹¹Ôìº¯ÊıÊÇ¿É·ÃÎÊµÄ
+			//è®¾ç½®æ— å‚æ„é€ å‡½æ•°æ˜¯å¯è®¿é—®çš„
 			constructor.setAccessible(true);
-			//²úÉúÒ»¸öÊµÀı¶ÔÏó
+			//äº§ç”Ÿä¸€ä¸ªå®ä¾‹å¯¹è±¡
 			singleton = (Singleton) constructor.newInstance();
 		} catch( Exception e ){
-			//Òì³£´¦Àí
+			//å¼‚å¸¸å¤„ç†
 		}
 	}
 	

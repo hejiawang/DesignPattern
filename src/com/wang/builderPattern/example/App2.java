@@ -1,4 +1,4 @@
-package com.wang.builderPattern.example;
+锘縫ackage com.wang.builderPattern.example;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ public class App2 {
 		BenzModel benz = (BenzModel)benzBuiler.getCarModel();
 		benz.run();
 		
-		//按同样的顺序建造一个BMW
+		//鎸夊悓鏍风殑椤哄簭寤洪�犱竴涓狟MW
 		BMWBuilder BMWBuiler = new BMWBuilder();
 		BMWBuiler.setSequence(sequence);
 		BMWModel BMW = (BMWModel)BMWBuiler.getCarModel();

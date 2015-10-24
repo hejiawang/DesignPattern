@@ -8,7 +8,7 @@ public class APP {
 		target.request();
 
 		/**
-		 * ÊÊÅäÆäËûµÄ½ÇÉ«
+		 * é€‚é…å…¶ä»–çš„è§’è‰²
 		 */
 		Target targetAdapter = new Adapter();
 		targetAdapter.request();

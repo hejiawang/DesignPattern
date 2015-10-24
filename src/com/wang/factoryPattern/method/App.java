@@ -1,7 +1,7 @@
-package com.wang.factoryPattern.method;
+ï»¿package com.wang.factoryPattern.method;
 
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * @author HeJW
  *
  */

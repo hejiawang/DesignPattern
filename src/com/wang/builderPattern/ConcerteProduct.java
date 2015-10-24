@@ -1,7 +1,7 @@
 package com.wang.builderPattern;
 
 /**
- * ¾ßÌå½¨ÔìÕß
+ * å…·ä½“å»ºé€ è€…
  * @author HeJW
  *
  */
@@ -9,11 +9,11 @@ public class ConcerteProduct extends Builder {
 
 	private Product product = new Product();
 	
-	//ÉèÖÃ²úÆ·Áã¼ş
+	//è®¾ç½®äº§å“é›¶ä»¶
 	@Override
 	public void setPart() {
 		/**
-		 * ²úÆ·ÀàÄÚµÄÂß¼­´¦Àí
+		 * äº§å“ç±»å†…çš„é€»è¾‘å¤„ç†
 		 */
 	}
 

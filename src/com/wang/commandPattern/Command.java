@@ -1,14 +1,14 @@
 package com.wang.commandPattern;
 
 /**
- * 抽象命令
+ * 鎶借薄鍛戒护
  * @author HeJW
  *
  */
 public abstract class Command {
 
 	/**
-	 * 每个命令都必须有一个执行命令的方法
+	 * 姣忎釜鍛戒护閮藉繀椤绘湁涓�涓墽琛屽懡浠ょ殑鏂规硶
 	 */
 	public abstract void execute();
 }

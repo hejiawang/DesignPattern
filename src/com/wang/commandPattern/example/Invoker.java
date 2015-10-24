@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * ¸ºÔğÈË£¬½ÓÊÜÃüÁîºÍÖ´ĞĞµÄÀà
+ * è´Ÿè´£äººï¼Œæ¥å—å‘½ä»¤å’Œæ‰§è¡Œçš„ç±»
  * 
  * @author HeJW
  * 
@@ -11,7 +11,7 @@ public class Invoker {
 	private Command command;
 
 	/**
-	 * ½ÓÊÜÃüÁî
+	 * æ¥å—å‘½ä»¤
 	 * 
 	 * @param command
 	 */
@@ -20,7 +20,7 @@ public class Invoker {
 	}
 
 	/**
-	 * Ö´ĞĞÃüÁî
+	 * æ‰§è¡Œå‘½ä»¤
 	 */
 	public void action() {
 

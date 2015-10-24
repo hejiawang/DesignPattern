@@ -8,7 +8,6 @@ public class App3 {
 		
 		director.getABMWModel().run();
 		director.getABenzModel().run();
-		
 	}
 	
 }

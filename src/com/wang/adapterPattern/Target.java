@@ -1,7 +1,7 @@
 package com.wang.adapterPattern;
 
 /**
- * ÊÊÅäÆ÷Ä£Ê½ </br> Ä¿±ê½ÇÉ«
+ * é€‚é…å™¨æ¨¡å¼ </br> ç›®æ ‡è§’è‰²
  * 
  * @author wang
  * 
@@ -9,7 +9,7 @@ package com.wang.adapterPattern;
 public interface Target {
 
 	/**
-	 * Ä¿±ê½ÇÉ«×Ô¼ºµÄ·½·¨
+	 * ç›®æ ‡è§’è‰²è‡ªå·±çš„æ–¹æ³•
 	 */
 	public void request();
 }

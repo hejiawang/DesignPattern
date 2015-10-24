@@ -1,10 +1,10 @@
-package com.wang.factoryPattern.simple;
+锘縫ackage com.wang.factoryPattern.simple;
 
 import com.wang.factoryPattern.method.Product;
 
 /**
- * 简单工厂类
- * 就是加了个static
+ * 绠�鍗曞伐鍘傜被
+ * 灏辨槸鍔犱簡涓猻tatic
  * @author HeJW
  *
  */

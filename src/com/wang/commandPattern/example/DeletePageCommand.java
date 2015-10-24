@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * É¾³ıÒ³ÃæµÄÃüÁî
+ * åˆ é™¤é¡µé¢çš„å‘½ä»¤
  * 
  * @author HeJW
  * 

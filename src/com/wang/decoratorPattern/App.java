@@ -1,12 +1,12 @@
-package com.wang.decoratorPattern;
+ï»¿package com.wang.decoratorPattern;
 
 public class App {
 	
 	public static void main(String[] args) {
 		Component component = new ConcreteComponent();
-		//µÚÒ»´ÎÐÞÊÎ
+		//ç¬¬ä¸€æ¬¡ä¿®é¥°
 		component = new ConcreteDecorator1(component);
-		//µÚ¶þ´ÎÐÞÊÎ
+		//ç¬¬äºŒæ¬¡ä¿®é¥°
 		component = new ConcreteDecorator2(component);
 		component.operate();
 	}

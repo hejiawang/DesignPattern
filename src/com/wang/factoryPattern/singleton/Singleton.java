@@ -1,18 +1,18 @@
-package com.wang.factoryPattern.singleton;
+ï»¿package com.wang.factoryPattern.singleton;
 
 /**
- * µ¥ÀıÀà
+ * å•ä¾‹ç±»
  * @author HeJW
  *
  */
 public class Singleton {
 	
 	private Singleton(){
-		//²»ÔÊĞíÍ¨¹ıNew£¬²úÉúÒ»¸ö¶ÔÏó
-		System.out.println("singleton ´´½¨");
+		//ä¸å…è®¸é€šè¿‡Newï¼Œäº§ç”Ÿä¸€ä¸ªå¯¹è±¡
+		System.out.println("singleton åˆ›å»º");
 	};
 	
 	public void method(){
-		System.out.println("singleton Êä³ö");
+		System.out.println("singleton è¾“å‡º");
 	}
 }

@@ -1,7 +1,7 @@
-package com.wang.decoratorPattern;
+ï»¿package com.wang.decoratorPattern;
 
 /**
- * ³éÏó×°ÊÎÕß
+ * æŠ½è±¡è£…é¥°è€…
  * 
  * @author HeJW
  * 
@@ -11,10 +11,10 @@ public abstract class Decorator extends Component {
 	private Component component = null;
 
 	/**
-	 * Í¨¹ý¹¹Ôìº¯Êý´«µÝ±»ÐÞÊÎÕß
+	 * é€šè¿‡æž„é€ å‡½æ•°ä¼ é€’è¢«ä¿®é¥°è€…
 	 * 
 	 * @param component
-	 *            ±»ÐÞÊÎµÄ¹¹¼þ
+	 *            è¢«ä¿®é¥°çš„æž„ä»¶
 	 */
 	public Decorator(Component component) {
 		this.component = component;

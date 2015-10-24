@@ -1,7 +1,7 @@
-package com.wang.decoratorPattern;
+ï»¿package com.wang.decoratorPattern;
 
 /**
- * ¾ßÌåµÄ×°ÊÎÀà
+ * å…·ä½“çš„è£…é¥°ç±»
  * 
  * @author HeJW
  * 
@@ -9,7 +9,7 @@ package com.wang.decoratorPattern;
 public class ConcreteDecorator2 extends Decorator {
 
 	/**
-	 * ¶¨Òå±»ĞŞÊÎÕß
+	 * å®šä¹‰è¢«ä¿®é¥°è€…
 	 * 
 	 * @param component
 	 */
@@ -18,14 +18,14 @@ public class ConcreteDecorator2 extends Decorator {
 	}
 
 	/**
-	 * ¶¨Òå×Ô¼ºµÄ·½·¨£¬½øĞĞĞŞÊÎ
+	 * å®šä¹‰è‡ªå·±çš„æ–¹æ³•ï¼Œè¿›è¡Œä¿®é¥°
 	 */
 	private void method2() {
-		System.out.println("method2 ĞŞÊÎ");
+		System.out.println("method2 ä¿®é¥°");
 	}
 
 	/**
-	 * ÔÚÖ´ĞĞ¹¹¼ş·½·¨ºó£¬½øĞĞĞŞÊÎ
+	 * åœ¨æ‰§è¡Œæ„ä»¶æ–¹æ³•åï¼Œè¿›è¡Œä¿®é¥°
 	 */
 	@Override
 	public void operate() {

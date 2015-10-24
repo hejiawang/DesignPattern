@@ -1,7 +1,7 @@
 package com.wang.commandPattern;
 
 /**
- * 执行命令的类
+ * 鎵ц鍛戒护鐨勭被
  * 
  * @author HeJW
  * 
@@ -11,7 +11,7 @@ public class Invoker {
 	private Command command;
 
 	/**
-	 * 接受命令
+	 * 鎺ュ彈鍛戒护
 	 * 
 	 * @param command
 	 */
@@ -20,7 +20,7 @@ public class Invoker {
 	}
 
 	/**
-	 * 执行命令
+	 * 鎵ц鍛戒护
 	 */
 	public void action() {
 		this.command.execute();

@@ -1,14 +1,14 @@
-package com.wang.factoryPattern.abstractF;
+锘縫ackage com.wang.factoryPattern.abstractF;
 
 /**
- * B系类产品
+ * B绯荤被浜у搧
  * @author HeJW
  *
  */
 public abstract class AbstractProductB implements IProduct {
 	
 	public void shareMethod(){
-		System.out.println("每个产品共有的方法B");
+		System.out.println("姣忎釜浜у搧鍏辨湁鐨勬柟娉旴");
 	}
 	
 	public abstract void doSomething();

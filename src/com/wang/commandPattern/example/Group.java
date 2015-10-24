@@ -1,34 +1,34 @@
 package com.wang.commandPattern.example;
 
 /**
- * ³éÏó×é£¨Ä£ÄâÏîÄ¿¿ª·¢£¬ĞèÇó×é¡¢´úÂë×é¡¢ÃÀ¹¤×é¡¢¡¢¡¢¡¢¡¢¡¢£©
+ * æŠ½è±¡ç»„ï¼ˆæ¨¡æ‹Ÿé¡¹ç›®å¼€å‘ï¼Œéœ€æ±‚ç»„ã€ä»£ç ç»„ã€ç¾å·¥ç»„ã€ã€ã€ã€ã€ã€ï¼‰
  * @author HeJW
  *
  */
 public abstract class Group {
 
 	/**
-	 * ÕÒµ½Õâ¸ö×é
+	 * æ‰¾åˆ°è¿™ä¸ªç»„
 	 */
 	public abstract void find();
 	
 	/**
-	 * Ìí¼Ó¹¦ÄÜ 
+	 * æ·»åŠ åŠŸèƒ½ 
 	 */
 	public abstract void add();
 	
 	/**
-	 * É¾³ı¹¦ÄÜ
+	 * åˆ é™¤åŠŸèƒ½
 	 */
 	public abstract void delete();
 	
 	/**
-	 * ĞŞ¸Ä¹¦ÄÜ
+	 * ä¿®æ”¹åŠŸèƒ½
 	 */
 	public abstract void change();
 	
 	/**
-	 *±ä¸ü¼Æ»®
+	 *å˜æ›´è®¡åˆ’
 	 */
 	public abstract void plan();
 	

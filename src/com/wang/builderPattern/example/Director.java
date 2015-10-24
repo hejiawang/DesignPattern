@@ -1,10 +1,10 @@
-package com.wang.builderPattern.example;
+ï»¿package com.wang.builderPattern.example;
 
 import java.util.ArrayList;
 
 /**
- * µ¼ÑİÀà
- * 		ÖÆÔì²»Í¬×é×°Ï¸½ÚµÄ³µ
+ * å¯¼æ¼”ç±»
+ * 		åˆ¶é€ ä¸åŒç»„è£…ç»†èŠ‚çš„è½¦
  * @author HeJW
  *
  */

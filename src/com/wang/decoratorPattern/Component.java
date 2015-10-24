@@ -1,7 +1,7 @@
-package com.wang.decoratorPattern;
+ï»¿package com.wang.decoratorPattern;
 
 /**
- * ³éÏó¹¹½¨ </br> Ò²¾ÍÊÇÒª±»×°ÊÎµÄ³éÏóÀà
+ * æŠ½è±¡æ„å»º </br> ä¹Ÿå°±æ˜¯è¦è¢«è£…é¥°çš„æŠ½è±¡ç±»
  * 
  * @author HeJW
  * 
@@ -9,7 +9,7 @@ package com.wang.decoratorPattern;
 public abstract class Component {
 
 	/**
-	 * ³éÏó·½·¨£¬Ò²¾ÍÊÇÒª±»×°ÊÎµÄ·½·¨
+	 * æŠ½è±¡æ–¹æ³•ï¼Œä¹Ÿå°±æ˜¯è¦è¢«è£…é¥°çš„æ–¹æ³•
 	 */
 	public abstract void operate();
 }

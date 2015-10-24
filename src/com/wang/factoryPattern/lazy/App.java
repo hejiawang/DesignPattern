@@ -1,4 +1,4 @@
-package com.wang.factoryPattern.lazy;
+ï»¿package com.wang.factoryPattern.lazy;
 
 import com.wang.factoryPattern.method.ConcreteProduct1;
 
@@ -8,7 +8,7 @@ public class App {
 		ConcreteProduct1 product1 = (ConcreteProduct1) LazyProductFactory.ProductFactory("ConcreteProduct1");
 		product1.method1();
 		
-		//µ±´Ë´Î´´½¨ConcreteProduct1Ê±£¬ÊÇ´ÓmapÖĞÈ¡³öµÄ¡£
+		//å½“æ­¤æ¬¡åˆ›å»ºConcreteProduct1æ—¶ï¼Œæ˜¯ä»mapä¸­å–å‡ºçš„ã€‚
 		ConcreteProduct1 product2 = (ConcreteProduct1) LazyProductFactory.ProductFactory("ConcreteProduct1");
 		product2.method1();
 	}

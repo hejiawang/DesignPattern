@@ -1,15 +1,15 @@
-package com.wang.factoryPattern.abstractF;
+ï»¿package com.wang.factoryPattern.abstractF;
 
 /**
- * ²úÆ·½Ó¿Ú¶¨Òå
+ * äº§å“æ¥å£å®šä¹‰
  * @author HeJW
  *
  */
 public interface IProduct {
 	
-	//Ã¿¸ö²úÆ·¹²ÓĞµÄ·½·¨
+	//æ¯ä¸ªäº§å“å…±æœ‰çš„æ–¹æ³•
 	public void shareMethod();
 	
-	//Ã¿¸ö²úÆ·ÏàÍ¬µÄ·½·¨£¬²»Í¬µÄÊµÏÖ
+	//æ¯ä¸ªäº§å“ç›¸åŒçš„æ–¹æ³•ï¼Œä¸åŒçš„å®ç°
 	public abstract void doSomething();
 }

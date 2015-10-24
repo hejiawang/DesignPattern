@@ -1,16 +1,16 @@
 	package com.wang.builderPattern;
 	
 	/**
-	 * ³éÏó½¨ÔìÕß
+	 * æŠ½è±¡å»ºé€ è€…
 	 * @author HeJW
 	 *
 	 */
 	public abstract class Builder {
 	
-		//ÉèÖÃ²úÆ·µÄ²»Í¬²¿·Ö£¬ÒÔ»ñµÃ²»Í¬²úÆ·
+		//è®¾ç½®äº§å“çš„ä¸åŒéƒ¨åˆ†ï¼Œä»¥è·å¾—ä¸åŒäº§å“
 		public abstract void setPart();
 		
-		//½¨Ôì²úÆ·
+		//å»ºé€ äº§å“
 		public abstract Product builderProduct();
 		
 	}

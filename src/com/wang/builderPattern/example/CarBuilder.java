@@ -1,17 +1,17 @@
-package com.wang.builderPattern.example;
+ï»¿package com.wang.builderPattern.example;
 
 import java.util.ArrayList;
 
 /**
- * ³éÏóÆû³µ×é×°Õß
+ * æŠ½è±¡æ±½è½¦ç»„è£…è€…
  * @author HeJW
  *
  */
 public abstract class CarBuilder {
 	
-	//×é×°Ë³Ğò
+	//ç»„è£…é¡ºåº
 	public abstract void setSequence(ArrayList<String> sequence);
 	
-	//×é×°Ö®ºó£¬µÃµ½³µÁ¾Ä£ĞÍ
+	//ç»„è£…ä¹‹åï¼Œå¾—åˆ°è½¦è¾†æ¨¡å‹
 	public abstract CarModel getCarModel();
 }

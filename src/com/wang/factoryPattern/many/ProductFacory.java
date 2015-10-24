@@ -1,9 +1,9 @@
-package com.wang.factoryPattern.many;
+锘縫ackage com.wang.factoryPattern.many;
 
 import com.wang.factoryPattern.method.Product;
 
 /**
- * 多工厂模型的工厂接口
+ * 澶氬伐鍘傛ā鍨嬬殑宸ュ巶鎺ュ彛
  * @author HeJW
  *
  */

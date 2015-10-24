@@ -1,7 +1,7 @@
 package com.wang.adapterPattern;
 
 /**
- * Ä¿±ê½ÇÉ«ÊµÏÖÀà
+ * ç›®æ ‡è§’è‰²å®ç°ç±»
  * 
  * @author wang
  * 

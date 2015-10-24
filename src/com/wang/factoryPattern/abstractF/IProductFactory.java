@@ -1,15 +1,15 @@
-package com.wang.factoryPattern.abstractF;
+锘縫ackage com.wang.factoryPattern.abstractF;
 
 /**
- * 抽象工厂定义
+ * 鎶借薄宸ュ巶瀹氫箟
  * @author HeJW
  *
  */
 public interface IProductFactory {
 	
-	//A系类产品工厂
+	//A绯荤被浜у搧宸ュ巶
 	public AbstractProductA productAFactory();
 	
-	//B系类产品工厂
+	//B绯荤被浜у搧宸ュ巶
 	public AbstractProductB productBFactory();
 }

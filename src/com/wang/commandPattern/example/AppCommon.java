@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * ·ÇÃüÁîÄ£Ê½µÄ¿Í»§¶Ë
+ * éå‘½ä»¤æ¨¡å¼çš„å®¢æˆ·ç«¯
  * 
  * @author HeJW
  * 
@@ -9,20 +9,20 @@ package com.wang.commandPattern.example;
 public class AppCommon {
 
 //	public static void main(String[] args) {
-//		System.out.println("------------Ôö¼ÓÒ»¸öĞèÇó");
+//		System.out.println("------------å¢åŠ ä¸€ä¸ªéœ€æ±‚");
 //		Group rg = new RequirementGroup();
-//		rg.find();// Ê×ÏÈÕÒµ½Õâ¸ö×é
-//		rg.add();// Ôö¼ÓÒ»¸öĞèÇó
-//		rg.plan();// ĞèÇó±ä¸ü¼Æ»®
+//		rg.find();// é¦–å…ˆæ‰¾åˆ°è¿™ä¸ªç»„
+//		rg.add();// å¢åŠ ä¸€ä¸ªéœ€æ±‚
+//		rg.plan();// éœ€æ±‚å˜æ›´è®¡åˆ’
 //	}
 	
 	public static void main(String[] args) {
-		System.out.println("------------É¾³ıÒ»¸öÒ»¸öĞèÇó");
+		System.out.println("------------åˆ é™¤ä¸€ä¸ªä¸€ä¸ªéœ€æ±‚");
 		Group rg = new RequirementGroup();
-		rg.find();// Ê×ÏÈÕÒµ½Õâ¸ö×é
-		rg.delete();// É¾³ıÒ»¸öĞèÇó
-		rg.plan();// ĞèÇó±ä¸ü¼Æ»®
+		rg.find();// é¦–å…ˆæ‰¾åˆ°è¿™ä¸ªç»„
+		rg.delete();// åˆ é™¤ä¸€ä¸ªéœ€æ±‚
+		rg.plan();// éœ€æ±‚å˜æ›´è®¡åˆ’
 	}
 	//...........
-	//µÈµÈ¡£¡£»¹»áÓĞºÜ¶àĞèÇó±ä¸ü£¬Ã¿´Î±ä»¯¡£¡£¡£
+	//ç­‰ç­‰ã€‚ã€‚è¿˜ä¼šæœ‰å¾ˆå¤šéœ€æ±‚å˜æ›´ï¼Œæ¯æ¬¡å˜åŒ–ã€‚ã€‚ã€‚
 }

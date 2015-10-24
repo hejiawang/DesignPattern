@@ -1,7 +1,7 @@
 package com.wang.builderPattern;
 
 /**
- * µ¼ÑİÀà
+ * å¯¼æ¼”ç±»
  * @author HeJW
  *
  */
@@ -9,10 +9,10 @@ public class Director {
 
 	private Builder builder = new ConcerteProduct();
 	
-	//¹¹Ôì²»Í¬µÄ²úÆ·
+	//æ„é€ ä¸åŒçš„äº§å“
 	public Product getProduct(){
 		/*
-		 * ÉèÖÃ²»Í¬µÄÁã¼ş£¬²úÉú²»Í¬µÄ²úÆ·
+		 * è®¾ç½®ä¸åŒçš„é›¶ä»¶ï¼Œäº§ç”Ÿä¸åŒçš„äº§å“
 		 */
 		builder.setPart();
 		return builder.builderProduct();

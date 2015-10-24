@@ -1,10 +1,10 @@
-package com.wang.factoryPattern.many;
+锘縫ackage com.wang.factoryPattern.many;
 
 import com.wang.factoryPattern.method.ConcreteProduct2;
 import com.wang.factoryPattern.method.Product;
 
 /**
- * ConcreteProduct2工厂的实现类
+ * ConcreteProduct2宸ュ巶鐨勫疄鐜扮被
  * @author HeJW
  *
  */

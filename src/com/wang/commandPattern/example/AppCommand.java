@@ -1,7 +1,7 @@
 package com.wang.commandPattern.example;
 
 /**
- * Ê¹ÓÃÃüÁîÄ£Ê½µÄ¿Í»§¶Ë
+ * ä½¿ç”¨å‘½ä»¤æ¨¡å¼çš„å®¢æˆ·ç«¯
  * 
  * @author HeJW
  * 
@@ -11,7 +11,7 @@ public class AppCommand {
 	// public static void main(String[] args) {
 	//
 	// Invoker invoker = new Invoker();
-	// Command command = new AddRequirementCommand();// »¹¿ÉÒÔ¶¨Òå³ö¿Ï¶àÃüÁî
+	// Command command = new AddRequirementCommand();// è¿˜å¯ä»¥å®šä¹‰å‡ºè‚¯å¤šå‘½ä»¤
 	// invoker.setCommand(command);
 	// invoker.action();
 	// }
@@ -19,10 +19,10 @@ public class AppCommand {
 	public static void main(String[] args) {
 
 		Invoker invoker = new Invoker();
-		Command command = new DeletePageCommand();// »¹¿ÉÒÔ¶¨Òå³ö¿Ï¶àÃüÁî
+		Command command = new DeletePageCommand();// è¿˜å¯ä»¥å®šä¹‰å‡ºè‚¯å¤šå‘½ä»¤
 		invoker.setCommand(command);
 		invoker.action();
 	}
 	//......
-	//Ö»Òª¶¨Òå³öÃüÁî£¬È»ºó½ÓÊÕ¡¢Ö´ĞĞ¾Í¿ÉÒÔÁË.
+	//åªè¦å®šä¹‰å‡ºå‘½ä»¤ï¼Œç„¶åæ¥æ”¶ã€æ‰§è¡Œå°±å¯ä»¥äº†.
 }

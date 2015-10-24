@@ -1,7 +1,7 @@
-package com.wang.factoryPattern.method;
+Ôªøpackage com.wang.factoryPattern.method;
 
 /**
- * æﬂÃÂπ§≥ß¿‡
+ * ÂÖ∑‰ΩìÂ∑•ÂéÇÁ±ª
  * @author HeJW
  *
  */
@@ -14,7 +14,7 @@ public class ConcreteFactory implements Factory {
 		try {
 			product1 = (Product)Class.forName(c.getName()).newInstance();
 		} catch (Exception e) {
-			//“Ï≥£¥¶¿Ì
+			//ÂºÇÂ∏∏Â§ÑÁêÜ
 		} 
 		
 		return (T)product1;

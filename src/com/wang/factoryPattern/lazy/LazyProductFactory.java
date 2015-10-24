@@ -1,4 +1,4 @@
-package com.wang.factoryPattern.lazy;
+ï»¿package com.wang.factoryPattern.lazy;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import com.wang.factoryPattern.method.ConcreteProduct2;
 import com.wang.factoryPattern.method.Product;
 
 /**
- * ÑÓÊ±³õÊ¼»¯µÄ¹¤³§Àà
+ * å»¶æ—¶åˆå§‹åŒ–çš„å·¥å‚ç±»
  * @author HeJW
  *
  */
@@ -19,7 +19,7 @@ public class LazyProductFactory {
 	public static synchronized Product ProductFactory(String type){
 		Product product = null;
 		
-		//Èç¹ûMapÖĞÒÑ¾­ÓĞÕâ¸ö¶ÔÏó
+		//å¦‚æœMapä¸­å·²ç»æœ‰è¿™ä¸ªå¯¹è±¡
 		if ( prMap.containsKey(type) ) {
 			product = prMap.get(type);
 		} else {
@@ -30,7 +30,7 @@ public class LazyProductFactory {
 				product = new ConcreteProduct2();
 			}
 			
-			//Í¬Ê±°Ñ¶ÔÏó·Åµ½»º´æÈİÆ÷ÖĞ
+			//åŒæ—¶æŠŠå¯¹è±¡æ”¾åˆ°ç¼“å­˜å®¹å™¨ä¸­
 			prMap.put(type, product);
 			
 		}

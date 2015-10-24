@@ -1,7 +1,7 @@
 package com.wang.adapterPattern;
 
 /**
- * 适配的源角色
+ * 閫傞厤鐨勬簮瑙掕壊
  * 
  * @author wang
  * 
@@ -9,7 +9,7 @@ package com.wang.adapterPattern;
 public class Adaptee {
 
 	/**
-	 * 源角色的方法
+	 * 婧愯鑹茬殑鏂规硶
 	 */
 	public void doSomething() {
 		System.out.println("Adaptee");

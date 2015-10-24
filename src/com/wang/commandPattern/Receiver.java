@@ -1,7 +1,7 @@
 package com.wang.commandPattern;
 
 /**
- * ½ÓÊÕÕß½ÇÉ« </br> ¸Ã½ÇÉ«¾ÍÊÇ¸É»îµÄ½ÇÉ«
+ * æ¥æ”¶è€…è§’è‰² </br> è¯¥è§’è‰²å°±æ˜¯å¹²æ´»çš„è§’è‰²
  * 
  * @author HeJW
  * 
@@ -9,7 +9,7 @@ package com.wang.commandPattern;
 public abstract class Receiver {
 
 	/**
-	 * ³éÏó½ÓÊÕÕß£¬¶¨ÒåÃ¿¸ö½ÓÊÕÕß¶¼±ØĞëÍê³ÉµÄÒµÎñ.
+	 * æŠ½è±¡æ¥æ”¶è€…ï¼Œå®šä¹‰æ¯ä¸ªæ¥æ”¶è€…éƒ½å¿…é¡»å®Œæˆçš„ä¸šåŠ¡.
 	 */
 	public abstract void doSomthing1();
 
