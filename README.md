@@ -13,3 +13,6 @@ Design  Pattern</br>
 模板模式</br>
 适配器模式</br>
 迭代器模式</br>
+观察者模式</br>
+![image](https://github.com/hejiawang/DesignPattern/raw/master/src/com/wang/observerPattern/Observer.jpg)
+![image](https://github.com/hejiawang/DesignPattern/raw/master/src/com/wang/observerPattern/ObserverJKD.jpg)
