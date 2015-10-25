@@ -14,7 +14,9 @@ Design  Pattern</br>
 适配器模式</br>
 迭代器模式</br>
 <h1>观察者模式</h1></br>
-观察者模式UML：</br>
+观察者模式UML:</br>
+</br>
 ![image](https://github.com/hejiawang/DesignPattern/raw/master/src/com/wang/observerPattern/Observer.jpg)
-JDK自带的观察者模式</br>
+JDK自带的观察者模式:</br>
+</br>
 ![image](https://github.com/hejiawang/DesignPattern/raw/master/src/com/wang/observerPattern/ObserverJDK.jpg)
