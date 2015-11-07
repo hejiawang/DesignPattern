@@ -1,5 +1,5 @@
 # DesignPattern
-Design  Pattern</br>
+设计模式(Design Pattern)</br>
 建造者模式——builderPattern</br>
 命令模式</br>
 装饰模式</br>
